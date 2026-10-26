@@ -1,0 +1,33 @@
+=== ACTIO uppercase ===
+client/src/pages/Home.tsx:1004:                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>INACTION</div>
+client/src/pages/Home.tsx:1056:                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>ACTION</div>
+=== arms length ===
+=== cherry pick ===
+=== one site/location ===
+client/src/lib/articlesData.ts:977:        answer: 'Carbon risk is largely global and fungible: a tonne of CO2 emitted in one location has the same atmospheric effect as a tonne emitted elsewhere. Biodiversity risk is location-specific. The financial exposure depends on where in the world a company sources inputs, which ecosystems those supply chains depend on, and how degraded those ecosystems are. This makes it harder to measure and harder to aggregate, which is exactly why most companies have not yet priced it.',
+=== retired counts ===
+client/src/lib/articlesData.ts:1297:      { type: 'body', content: 'The TNFD framework was finalized in September 2023 and has already been adopted by over 400 organizations globally as a voluntary standard. The European Union is integrating nature-related disclosures into the Corporate Sustainability Reporting Directive. The UK is consulting on mandatory TNFD-aligned reporting for listed companies. Canada is watching closely. The window for voluntary adoption before mandatory compliance is shorter than most advisors realize.' },
+client/src/lib/suppliersData.ts:1042:  { name: 'Driivz', url: 'https://driivz.com', email: 'contactus@driivz.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'We help over 400 partners around the world build future-proof EV charging businesses.Since 2013, Driivz has been the operating system for global EV charging' },
+client/src/lib/suppliersData.ts:2190:  { name: 'Light Progress', url: 'https://lightprogress.com', email: 'team@lightprogress.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'And provide you with the data visualization and the information you need.Light Progress is the global leader in UVC disinfection with over 30 years of history and a portfolio with several hundred products' },
+client/src/lib/suppliersData.ts:2514:  { name: 'Nordomatic', url: 'https://nordomatic.com', email: 'info@nordomatic.se', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'EcoPilot is owned by Nordomatic AB, a Scandinavian champion in smart buildings with 18 locations and over 400 employees' },
+client/src/lib/suppliersData.ts:3184:  { name: 'Skytree', url: 'https://skytree.tech/en-en', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Skytree also offers a Pioneer Program for early adopters and is developing a larger unit capable of capturing 400 kg of CO' },
+client/src/pages/ArticleDetail.tsx:652:                        width="400"
+client/src/pages/Contact.tsx:568:          error ? 'border-red-400 bg-red-50/30' : 'border-[#D8D0C4]'
+client/src/pages/Contact.tsx:601:          } ${error ? 'border-red-400 bg-red-50/30' : 'border-[#D8D0C4]'}`}
+client/src/pages/Diagnostic.tsx:303:                }}>How did you hear about us? <span style={{ fontWeight: 400, textTransform: 'none', fontSize: '0.72rem', color: '#9ca3af' }}>(optional)</span></label>
+client/src/pages/HiringAdvisory.tsx:67:                  <img src={article.heroImage} alt={article.heroAlt} width="720" height="400" loading={index < 2 ? 'eager' : 'lazy'} style={{ width: '100%', height: '178px', objectFit: 'cover', display: 'block' }} />
+client/src/pages/Home.tsx:1116:                    fontWeight: 400,
+client/src/pages/Services.tsx:620:                          <span style={{ fontSize: '0.68rem', color: 'rgba(201,168,76,0.55)', marginLeft: '4px', fontWeight: 400 }}>134 KB</span>
+client/src/pages/SupplierDirectory.tsx:1025:                      <span style={{ fontFamily: 'var(--font-body)', fontSize: '0.78rem', fontWeight: active ? 600 : 400, color: active ? '#a8882e' : 'var(--color-slate-deep)' }}>
+client/src/pages/SupplyChain.tsx:33:      <img src={article.heroImage} alt={article.heroAlt} width="720" height="400" loading={priority ? 'eager' : 'lazy'} style={{ width: '100%', height: '184px', objectFit: 'cover', display: 'block' }} />
+=== design to ===
+client/src/lib/suppliersData.ts:380:  { name: 'Autodesk', url: 'https://www.autodesk.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Autodesk’s product ecosystem spans design tools, collaborative cloud platforms like Autodesk Construction Cloud and BIM 360, and specialized vertical applications serving building design, civil engineering, factory design, automotive design, and digital content creation industries' },
+client/src/lib/suppliersData.ts:3190:  { name: 'Smart Cooling', url: 'http://smartcooling.us/en', email: 'office@smartcooling.us', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'The microprocessor-based design monitors the temperature of the water in the loop using a unique dual temperature sensor design to ensure the water in the loop stays hot while hot water is being used.Intelligent adiabatic Smart Cooling' },
+client/src/lib/suppliersData.ts:3270:  { name: 'Solution F', url: 'https://www.solutionf.com/en', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Solution F provides comprehensive support from design to operation, including manufacturing and simulation' },
+=== thirty years customer data ===
+=== handful value ===
+=== coach experience ===
+client/src/pages/CoachModel.tsx:16:    description: 'Every Enduring Advantage client has a single named Coach, generally with 10 to 20 years of management consulting experience, personally measured on your financial outcomes.',
+client/src/pages/CoachModel.tsx:72:              Every Enduring Advantage client has a single named Coach, a senior professional, generally with 10 to 20 years
+client/src/pages/CoachModel.tsx:247:              { step: '01', label: 'The Quarterback', detail: 'One senior coach owns the account. Generally 10 to 20 years of management consulting experience. Named. One neck to wring. Not rotated.' },
+client/src/pages/Home.tsx:1909:                  Every client has a single named Coach, generally with 10 to 20 years of management consulting experience,

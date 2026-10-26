@@ -1,0 +1,98 @@
+### client/src/components/ActioExplainer.tsx
+2:// ENDURING ADVANTAGE, ACTIO Product Explainer Component
+4:// Shows how ACTIO identifies, scores, and ranks sustainability initiatives
+17:      'ACTIO ingests your operational data, energy, water, waste, fleet, procurement, and maps it against all 36 dimensions of the Sustainability Playing Field. Most organisations have 400–1,000 candidate initiatives hiding in plain sight.',
+18:    metric: '400–1,000',
+52:      'ACTIO produces a ranked shortlist, typically 3–5 initiatives, that deliver the maximum combined financial and environmental return. No paralysis. No politics. Just a clear, defensible recommendation your CFO can act on immediately.',
+189:export default function ActioExplainer({ onBookCall }: { onBookCall?: () => void }) {
+246:            Partly powered by ACTIO
+259:            ACTIO is Enduring Advantage’s proprietary decision engine. It evaluates the entire sustainability market, every solution, every initiative, every financing instrument, and surfaces the single action with the greatest material impact on your bottom line and market cap. Then we repeat the process.
+388:              ACTIO, Live View
+400:            Ready to see what ACTIO finds in your organisation?
+412:            Run ACTIO on My Organisation
+### client/src/components/Footer.tsx
+17:      { label: 'ACTIO Platform', href: '#actio', internal: true },
+48:      { label: 'ACTIO Software', href: 'https://catalyslabs.com/solutions/#actio', internal: false },
+### client/src/components/ReadingProgressBar.tsx
+18:  { id: 'actio',            label: 'ACTIO Platform' },
+### client/src/hooks/useSEO.ts
+168:    'ACTIO Decision Engine',
+178:  potentialAction: {
+179:    '@type': 'SearchAction',
+### client/src/lib/articlesData.ts
+58:        answer: 'Every candidate initiative should be scored on a common financial metric: projected annual savings, payback period, and GHG reduction per dollar invested. This creates a ranked list the CFO can interrogate and act on. The ACTIO decision engine from Enduring Advantage automates this ranking across hundreds of candidate initiatives.',
+676:        content: `There's a common trap in the finance office: buying a 'sustainability dashboard' and expecting it to solve the problem. Software can organize data, but it can't tell you where the engineering waste is or how to renegotiate a contract to favor energy efficiency.\n\nWe've found that the best results come from a data-driven, independent perspective that focuses on the physics of the business. You need an advisory partner who doesn't care which software you use, but cares deeply about the delta between your current energy use and your theoretical minimum. That delta is where the profit lives. At Enduring Advantage, we use our proprietary ACTIO decision engine to find exactly those points where environmental data translates into a financial line item.`,
+705:        content: `**How does environmental performance directly impact the P&L?**\nBy identifying specific points of waste in energy, water, and raw materials, companies can reduce the variable costs associated with production. When these initiatives are managed as operational improvements rather than PR projects, the savings flow directly to the bottom line, often with shorter payback periods than traditional capital projects.\n\n**Why is vendor independence important in sustainability advisory?**\nMany consultants are incentivized to sell specific software or hardware solutions. Vendor-agnostic advisors, like those at Enduring Advantage, prioritize the client's financial outcome, selecting the best-fit tools and strategies based on data rather than commission structures.\n\n**Can sustainability be profitable for mid-market enterprises?**\nAbsolutely. In fact, mid-market companies often have more agility to implement process changes. By focusing on high-ROI operational categories, like heat recovery or supply chain optimization, smaller firms can see a larger relative impact on their margins than massive conglomerates.\n\n**What is the difference between an ESG report and material results advisory?**\nAn ESG report is a look-back document designed for external stakeholders. Material results advisory is a look-forward strategy designed for internal decision-makers. It focuses on using environmental data to drive operational changes that result in measurable financial gains.`,
+1273:        content: 'If you want to understand where strategic location risk sits in your specific portfolio, the 30-minute triage at enduringadvantage.com is the right starting point. Bring us one site, one portfolio, or one operational problem. We will tell you where the biggest opportunity is and what it is worth.',
+1307:      { type: 'subheading', content: 'Four Actions You Can Take Now' },
+1600:      { type: 'subheading', content: 'From Analysis to an Actionable Plan' },
+### client/src/lib/decisionGuidanceSeries.ts
+183:    title: 'What Does an Actionable Sustainability Plan Actually Contain?',
+### client/src/lib/icpPageData.ts
+68:    ctaNote: 'Principal to principal. No sales presentation. Bring one site or one proposal.',
+109:    howItStartsBody: 'Start with one site, one operating category or one proposal already on your desk. There is no requirement to commit to a multi-year programme before you know whether the case is worth pursuing.',
+### client/src/lib/supplyChainArticle.ts
+### client/src/pages/About.tsx
+102:    description: 'Enduring Advantage is the implementation arm of a three-part group. Energy Advantage holds thirty years of operational data. ACTIO finds the opportunity. We turn it into a plan and deliver it. No equipment sales. No referral fees.',
+472:                His view is simple: customers today face a multitude of energy and sustainability options with the potential to deliver very material financial and environmental benefits. The challenge is choosing the right options, in the right order, with the right partners. That is exactly what Enduring Advantage is built to do. The group's AI decision platform, ACTIO, is developed by{' '}
+867:                role: 'AI Decision Platform (ACTIO)',
+868:                description: 'Develops and owns the ACTIO decision platform, licensed to Enduring Advantage at arm’s length. It supports the structured analysis that helps identify the next best move.',
+935:            Enduring Advantage Inc. is wholly owned by Energy Advantage Inc. ACTIO is developed and owned by Catalys Inc. and licensed to Enduring Advantage at arm’s length. We disclose this openly. No surprises.
+950:            We start from your data, then place it in market and jurisdictional context. The market and jurisdictional information are publicly accessible. The enduring advantage is your proprietary customer data, thirty years of verified experience, and the way ACTIO helps us use them together.
+1002:          {/* ACTIO platform */}
+1006:                Powered by ACTIO
+1012:                ACTIO is the decision platform developed by{' '}
+1014:                . It is licensed to Enduring Advantage at arm’s length and supports our structured screen of what is material to your company. Think of it like standing in a museum: step back far enough and you see the whole field; zoom in too early and you miss most of it.
+### client/src/pages/CoachModel.tsx
+16:    description: 'Every Enduring Advantage client has a single named Coach with 10 to 20 years of management consulting experience, personally measured on your financial outcomes.',
+72:              Every Enduring Advantage client has a single named Coach, a senior professional with 10 to 20 years
+243:              { step: '01', label: 'The Quarterback', detail: 'One senior coach owns the account. 10 to 20 years of management consulting experience. Named. One neck to wring. Not rotated.' },
+447:              Start with a 30-minute triage. No sales presentation. Bring us one site, one portfolio, or one operational problem.
+### client/src/pages/Home.tsx
+20:import ActioExplainer from '@/components/ActioExplainer';
+79:    title: 'One Clear Order of Action',
+92:      'Measured the way your organization measures it: payback period, ROI, NPV, or whatever your corporate criterion is. We accommodate your framework rather than imposing ours. Three years or less is the bar most CFOs call compelling, and it is the standard we design to.',
+218:      'Enduring Advantage helps large customers and supply chain partners turn environmental pressure into a commercial advantage. Backed by thirty years of Energy Advantage data and Catalys’ ACTIO platform, we pinpoint the Next Best Thing for financial return and help deliver it with the right partners, at speed and at scale.',
+466:                  A 30-minute working session. No sales presentation. Bring one site, one portfolio, or one operational problem.
+686:                { step: '02', label: 'Identify', desc: 'ACTIO screens out what is not material and pinpoints the Next Best Thing.' },
+876:                Every organization has hundreds of candidate projects across 36 dimensions of the sustainability landscape. Most advisors narrow the field before they start. We start at 50,000 feet on the widest possible field and find the needle in two haystacks: your operations, and the market. If you narrow the field at the start, you give up your biggest opportunity.
+918:                Think of it like standing in a museum. Step back far enough and you see everything. Zoom in too early and you miss most of it. ACTIO starts with the whole field and screens out what is not material, grounded in your data and the market context.
+959:                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>INACTION</div>
+996:                    {/* Action label */}
+1011:                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>ACTION</div>
+1163:                  A handful of projects create most of the value.
+1168:                  Every organization has hundreds of candidate projects that fall along a steeply declining curve. A few deliver outsized returns. The rest deliver diminishing value. We pinpoint the standouts, not by analyzing all several hundred candidates in depth, but by running a broad screen first to find the needle in two haystacks, then zooming in on the standouts for the full analysis. Cherry-pick the best, deliver it, then find the next one.
+1260:                  ACTIO screens the whole field against the factors that matter to your business and removes what is not material. We then pinpoint the action with the strongest overall business case. Not the most fashionable initiative. Not the solution a vendor happens to sell. The best next move for your organization.
+1448:                  role: 'AI Decision Platform (ACTIO)',
+1450:                    'Develops and owns ACTIO, the decision platform licensed to Enduring Advantage at arm’s length. ACTIO combines proprietary customer data with market and jurisdictional context to screen out what is not material and identify the Next Best Thing.',
+1458:                    'The integrator and delivery partner. Once ACTIO identifies what to do, generative AI turns the answer into a detailed draft plan. Coaches and subject matter experts apply the human sanity test, add local context, and quarterback delivery through to verified results.',
+1523:          {/* ── ACTIO callout ── */}
+1536:                Partly powered by ACTIO
+1542:                    ACTIO brings your operational data together, screens out what is not material, and identifies the Next Best Thing. It answers one question: of everything you could do, what should you do next?
+1573:                The market and jurisdictional data are useful but publicly accessible. The advantage is what ACTIO can do when they are combined with your proprietary customer data. Then the human layer applies the sanity test and quarterbacks the work through to delivery.
+1600:                    'ACTIO evaluates each opportunity against its projected financial return, environmental value, risk, readiness, and funding potential.',
+1653:      {/* ===== ACTIO EXPLAINER ===== */}
+1654:      <ActioExplainer onBookCall={() => window.open(OUTLOOK_BOOKING_URL, '_blank', 'noopener,noreferrer')} />
+1830:                  Every client has a single named Coach with 10 to 20 years of management consulting experience,
+### client/src/pages/Partners.tsx
+56:  ['ACTIO identifies what matters.', 'ACTIO is the decision platform we run the client’s data through. It screens out everything that is not material to that specific company and names the single highest value action to take first. Not a shortlist. One thing, and the reason it is that thing.'],
+275:            <aside style={{ background: C.navy, padding: '1.35rem' }}><p style={{ color: C.goldLight, fontFamily: 'var(--font-body)', fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.13em', margin: 0, textTransform: 'uppercase' }}>ACTIO disclosure</p><p style={{ color: 'rgba(250,247,242,0.75)', fontFamily: 'var(--font-body)', fontSize: '0.87rem', lineHeight: 1.65, margin: '0.6rem 0 0' }}>ACTIO is built and owned by Catalys Inc. and licensed to Enduring Advantage at a channel rate. Catalys and Energy Advantage share a majority owner, and we disclose that in writing in every engagement.</p></aside>
+### client/src/pages/Questions.tsx
+37:        a: 'The approach scales down as well as up. Start with one site, one operational category, or one important decision. The logic is the same at any size: establish the baseline, rank the opportunities, act on the strongest one, and let the results fund what comes next.',
+47:        a: 'It depends on the opportunity that ranks first, and we will not pretend otherwise. Some actions, such as rate structures, incentive capture, and operational adjustments, can show results within months. Capital projects take longer, which is why payback discipline matters: three years or less is the bar we design to. Speed is central to our model. There is no silver bullet in sustainability, so value comes from implementing a sequence of right-sized projects quickly and correctly.',
+66:        articleLink: { href: '/articles/what-an-actionable-plan-contains', label: 'Read: What Does an Actionable Sustainability Plan Actually Contain?' },
+69:        q: 'What is ACTIO, and is it your software?',
+70:        a: 'ACTIO is the decision platform developed and owned by Catalys Inc. It is licensed to Enduring Advantage at arm’s length. Energy Advantage contributes thirty years of operational data and measurement experience. Enduring Advantage is the integrator and delivery partner, with one accountable customer relationship across the three parts of the Energy Advantage group.',
+74:        a: 'Not on its own, and neither do we. First, ACTIO helps screen out what is not material and identify the next best move from the available data. Then generative AI turns that decision into a detailed draft plan quickly. No recommendation reaches you without a human sanity test from experienced coaches and subject matter experts who confirm it works in the real world and add the local context an AI can miss.',
+85:        q: 'Who owns ACTIO?',
+86:        a: 'Catalys Inc. develops and owns ACTIO. It is licensed to Enduring Advantage at arm’s length. Energy Advantage Inc. provides the foundational data and measurement expertise, while Enduring Advantage leads the advisory and delivery work. We disclose the structure openly.',
+### client/src/pages/Scorecard.tsx
+381:      <ScorecardFaqItem q="How quickly will we see results?" a="Some actions, such as rate structures and incentive capture, can show results within months. Capital projects take longer. Three years or less is the financial return bar most CFOs call compelling, and it is the standard we design to." />
+### client/src/pages/Services.tsx
+47:Partly powered by ACTIO, the big-data software platform developed by Catalys, we identify the Next Best Thing from 50,000 feet. Think of it like standing in a museum: step back far enough and you see everything; zoom in too early and you miss most of it. ACTIO evaluates thousands of candidate opportunities (millions of possible combinations) and surfaces the standouts. Only those standouts get the full-blown analysis. We cherry-pick the best, not just the most visible. Financial return is measured the way your organization measures it: payback, ROI, NPV, or whatever your corporate criterion is. We accommodate your framework rather than imposing ours. Then we rank and recommend the Next Best Thing.`,
+342:              We evaluate your operations against the broadest possible field of sustainability opportunities: thousands of solutions, millions of possible combinations. Partly powered by ACTIO, Catalys's big-data software platform, we identify the Next Best Thing from 50,000 feet. Like a fish finder that first picks the lake from the map, we locate where the fish are before we cast. For location risk specifically, think of it as layering heat maps: one layer for hurricane exposure, one for sea-level rise, one for freshwater availability, one for wildfire probability. Every location has its own unique configuration of risk layers, and the combination tells a very different story than any single layer alone. Financial return is measured the way your organization measures it: payback, ROI, NPV, or whatever your corporate criterion is. Not the most fashionable initiative. Not the solution a vendor happens to sell. The Next Best Thing for your organization.
+675:                { label: 'First, identify what matters', body: 'ACTIO uses your operational data with market and jurisdictional context to screen out what is not material and pinpoint the Next Best Thing.' },
+875:                You don't need to commit to a major programme. Start with one site, one operational category, or one important decision. We will assess your available data and identify the opportunity with the strongest potential financial and environmental return.
+### client/src/pages/SupplyChain.tsx
+### client/public/llms.txt
+5:Enduring Advantage helps large customers and supply chain partners identify what is material, build a human-tested plan, and quarterback delivery. The firm combines thirty years of Energy Advantage data, the ACTIO decision platform, and human-led implementation support.

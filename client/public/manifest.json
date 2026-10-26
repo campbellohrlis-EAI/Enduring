@@ -1,0 +1,26 @@
+{
+  "name": "Enduring Advantage",
+  "short_name": "Enduring Adv.",
+  "description": "Profitable Environmental Performance. Vendor-agnostic sustainability advisory for CFOs and finance leaders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D3349",
+  "theme_color": "#0D3349",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance"],
+  "lang": "en-CA"
+}

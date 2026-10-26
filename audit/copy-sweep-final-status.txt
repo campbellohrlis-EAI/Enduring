@@ -1,0 +1,9 @@
+=== UPPERCASE ACTIO ===
+\n=== ARM\x27S LENGTH ===
+\n=== RETIRED PAYBACK WORDING ===
+client/src/lib/suppliersData.ts:380:  { name: 'Autodesk', url: 'https://www.autodesk.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Autodesk’s product ecosystem spans design tools, collaborative cloud platforms like Autodesk Construction Cloud and BIM 360, and specialized vertical applications serving building design, civil engineering, factory design, automotive design, and digital content creation industries' },
+client/src/lib/suppliersData.ts:3190:  { name: 'Smart Cooling', url: 'http://smartcooling.us/en', email: 'office@smartcooling.us', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'The microprocessor-based design monitors the temperature of the water in the loop using a unique dual temperature sensor design to ensure the water in the loop stays hot while hot water is being used.Intelligent adiabatic Smart Cooling' },
+client/src/lib/suppliersData.ts:3270:  { name: 'Solution F', url: 'https://www.solutionf.com/en', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Solution F provides comprehensive support from design to operation, including manufacturing and simulation' },
+\n=== RETIRED ONE-SITE CTA WORDING ===
+\n=== RETIRED INITIATIVE COUNT ===
+\n=== RETIRED DATA-HISTORY CLAIM ===

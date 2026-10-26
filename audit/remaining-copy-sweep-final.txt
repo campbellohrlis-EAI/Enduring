@@ -1,0 +1,10 @@
+=== UPPERCASE ACTIO ===
+client/src/pages/About.tsx:1008:          {/* ACTIO platform */}
+client/src/pages/Home.tsx:1565:          {/* ── ACTIO callout ── */}
+client/src/pages/Home.tsx:1695:      {/* ===== ACTIO EXPLAINER ===== */}
+client/src/pages/Partners.tsx:56:  ['ACTIO identifies what matters.', 'ACTIO is the decision platform we run the client’s data through. It screens out everything that is not material to that specific company and names the single highest value action to take first. Not a shortlist. One thing, and the reason it is that thing.'],
+client/src/pages/Partners.tsx:275:            <aside style={{ background: C.navy, padding: '1.35rem' }}><p style={{ color: C.goldLight, fontFamily: 'var(--font-body)', fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.13em', margin: 0, textTransform: 'uppercase' }}>ACTIO disclosure</p><p style={{ color: 'rgba(250,247,242,0.75)', fontFamily: 'var(--font-body)', fontSize: '0.87rem', lineHeight: 1.65, margin: '0.6rem 0 0' }}>ACTIO is built and owned by Catalys Inc. and licensed to Enduring Advantage at a channel rate. Catalys and Energy Advantage share a majority owner, and we disclose that in writing in every engagement.</p></aside>
+\n=== ARM\x27S LENGTH ===
+\n=== PAYBACK DESIGN TO ===
+\n=== ONE SITE CTA ===
+\n=== DATA HISTORY ===

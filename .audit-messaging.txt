@@ -1,0 +1,429 @@
+=== Retired fee and outcome language ===
+client/src/lib/articlesData.ts:61:        answer: 'Most sustainability consultancies earn revenue from installation, equipment sales, referral fees, and extended engagements. Their financial incentive is not to identify the highest-return opportunities for the client, it is to recommend the solutions they can sell. Enduring Advantage does not install equipment, sell products, take referral fees, or bill by the hour, eliminating this structural conflict.',
+client/src/lib/articlesData.ts:127:Enduring Advantage doesn't install equipment, sell products, take referral fees, or bill by the hour. But independence is not the story, it is the trust foundation that makes the story possible. The story is this: because we evaluate the whole market without constraint, we are positioned to identify the highest-impact next action. Because our fees only work if your outcomes are real, we are structurally motivated to find it. That combination, whole-market coverage plus unconflicted incentives, is what produces results no other model can match.`,
+client/src/lib/articlesData.ts:559:        answer: 'Most sustainability advisory firms earn revenue from equipment installation, product sales, referral fees, hourly billing, or extended retainers. Each of these revenue models creates a financial incentive misaligned with the client\'s interest. The advisor who earns a commission on an installation will recommend that installation. The advisor who bills by the hour will not end the engagement early. These are structural conflicts, not ethical failures.',
+client/src/lib/articlesData.ts:567:        answer: 'Ask four questions: (1) How does this firm make money? (2) Does it earn revenue from installation, product sales, or referral fees? (3) Does it bill by the hour or on retainer? (4) Can it provide independently verified baselines and performance data? The answers reveal the structure of the conflict of interest and allow the CFO to calibrate how much weight to place on the recommendations.',
+client/src/lib/articlesData.ts:571:        answer: 'Genuine independence requires the elimination of all revenue streams that create conflicts of interest: no installation revenue, no product sales, no referral fees, no hourly billing, and no financial incentive to extend the engagement. The advisor\'s only financial interest must be in the quality and completeness of the advice it provides. Enduring Advantage was built to satisfy this standard.',
+client/src/lib/articlesData.ts:577:        content: `There's a question that every CFO should ask before engaging a sustainability advisor, and almost none do: how does this firm make money? The answer to that question determines, more than any other factor, the quality of advice the CFO will receive.\n\nThe sustainability advisory market is large, growing, and structurally conflicted. The majority of firms operating in it earn revenue from one or more of the following: equipment installation, product sales, referral fees from vendors, hourly billing, and extended engagement retainers. Each of these revenue models creates a financial incentive that is misaligned with the client\'s interest. The advisor who earns a commission on the heat pump installation will recommend the heat pump. The advisor who bills by the hour will not end the engagement early. The advisor who takes referral fees from vendors will not tell the client that the vendor\'s product is overpriced.\n\nThis isn't a criticism of individual practitioners. Many of them are technically excellent and personally committed to their clients\' outcomes. It's a structural observation about the market. When the financial incentives of the advisor and the client point in different directions, the advice will drift, subtly, incrementally, and often invisibly, toward the advisor\'s interest.`,
+client/src/lib/articlesData.ts:598:        content: `Genuine independence in sustainability advisory requires the elimination of all revenue streams that create conflicts of interest. This means no installation revenue, no product sales, no referral fees, no hourly billing, and no financial incentive to extend the engagement beyond what the client needs. It means the advisor\'s only financial interest is in the quality and completeness of the advice it provides.\n\nThis is a more demanding standard than it sounds. It rules out most of the business models that sustainability advisory firms currently operate. It means the advisor cannot offer implementation services, because implementation creates a financial interest in recommending implementable solutions over non-implementable ones. It means the advisor cannot take commissions from vendors, because commissions create a financial interest in recommending high-commission vendors over low-commission ones. It means the advisor cannot bill by the hour, because hourly billing creates a financial interest in taking longer.\n\nThe advisor that meets this standard is structurally rare. Its competitors would need to fundamentally restructure their businesses to replicate it, eliminating their most profitable revenue streams in the process. This isn't a marketing position. It's the structural condition that makes genuinely independent advice possible, and it is the condition that Enduring Advantage was built to satisfy.`,
+client/src/lib/articlesData.ts:628:    authorBio: 'Campbell Ohrlis is a Principal Advisor at Enduring Advantage, specialising in operational sustainability and the translation of environmental data into financial performance. With deep expertise in COGS-level carbon accounting and supply chain efficiency, Campbell works with CFOs and operational leaders to identify the highest-return sustainability actions, in the right order, at speed. Enduring Advantage does not install equipment, take referral fees, or bill by the hour: the only financial interest is in the quality of the result.',
+client/src/lib/articlesData.ts:736:    authorBio: 'Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob\'s practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer\'s side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.',
+client/src/lib/articlesData.ts:818:    authorBio: 'Campbell Ohrlis is a Principal Advisor at Enduring Advantage, specialising in operational sustainability and the translation of environmental data into financial performance. With deep expertise in COGS-level carbon accounting and supply chain efficiency, Campbell works with CFOs and operational leaders to identify the highest-return sustainability actions, in the right order, at speed. Enduring Advantage does not install equipment, take referral fees, or bill by the hour: the only financial interest is in the quality of the result.',
+client/src/lib/articlesData.ts:900:    authorBio: 'Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob\'s practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer\'s side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.',
+client/src/lib/articlesData.ts:1060:        content: `Enduring Advantage evaluates the full market of nature-positive and sustainability solutions and recommends the highest-return next action for each client. We don't install equipment, sell products, take referral fees, or bill by the hour. Our only interest is in the quality of the outcome. If you want to understand where your organisation sits on nature risk and what the highest-value next step looks like, the 30-minute triage is the right place to start.`,
+client/src/lib/articlesData.ts:1093:        answer: 'Enduring Advantage does not install equipment, sell products, take referral fees from vendors, or bill by the hour. This eliminates the structural conflict that affects most sustainability advisory firms, whose financial incentive is to recommend the solutions they can sell rather than the solutions with the highest return for the client. For advisors who have built their reputation on unconflicted advice, this alignment is the foundation of the partnership.',
+client/src/lib/articlesData.ts:1149:        content: `The challenge for most advisory firms is not willingness. It is capability. Building a sustainability investment advisory practice from scratch requires data infrastructure, vendor evaluation methodology, and delivery expertise that takes years to develop. Most firms do not have the time or the appetite to build it.\n\nThe Enduring Advantage partner programme is designed for exactly this situation. It allows accounting firms, financial advisors, and industry associations to offer clients a verified, unconflicted sustainability investment assessment without building the capability in-house.\n\nAs a referral partner, you introduce the client and Enduring Advantage handles all the selling and delivery. You earn 10 to 15 percent of first-year client fees with near-zero lift. Your relationship with the client stays yours. Enduring Advantage never approaches a partner's client directly, and the wholesale-at-parity pricing model means your client never pays more through you than they would direct.\n\nAs a certified delivery partner, you deliver the coaching layer under your own brand and keep approximately 26 percent of a roughly $1.1 million parity engagement, plus a 30 percent share of recurring success fees. The method is certified and the data infrastructure is provided. You bring the client relationship and the advisory credibility. We bring the evaluation engine and the market coverage.\n\nThe foundation of the partnership is the same principle that governs Enduring Advantage's client work: unconflicted advice. We don't install equipment, sell products, take referral fees from vendors, or bill by the hour. For advisors who have built their reputation on independence, that alignment is not a feature. It's the reason the partnership works.`,
+client/src/pages/AuthorPage.tsx:32:    bio: "Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob's practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer's side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.",
+client/src/pages/Home.tsx:490:                  'You keep the savings',
+client/src/pages/Home.tsx:1518:                &ldquo;Most sustainability platforms give you another dashboard. ACTIO tells you what to do. Big data, sophisticated software, and generative AI give us scalability and speed. Generative AI takes us from 50,000 feet to 50 feet in a heartbeat. Speed matters because value comes from implementing quickly. The platform brings your operational data together and evaluates potential initiatives across the broadest possible field of sustainability opportunities. It produces a ranked action plan showing what should be done first, why it outranks the alternatives, what it is expected to save, how quickly it should pay back, what environmental benefit it can create, what risks must be managed, and what financing may be available.&rdquo;
+client/src/pages/Services.tsx:134:    desc: 'We are paid for outcomes, not time. Our incentive is to get it done, not to extend the engagement.',
+client/src/pages/Services.tsx:678:                { label: 'No conflicts of interest by construction', body: 'We do not sell equipment, take referral fees, or bill by the hour. Our only incentive is to find the right answer and get it implemented. That structure cannot be replicated by a vendor-affiliated adviser.' },
+client/src/pages/Questions.tsx:24:        a: 'Our only income is the advisory fee our clients pay. We do not sell equipment, accept vendor referral fees, or bill by the hour, so our recommendation is never influenced by what a vendor pays us or by how long we can stretch an engagement. Most clients start with The Diagnostic, a fixed-fee, three-week review with a defined deliverable: a defensible baseline and a ranked list of your highest-value opportunities. You know the full cost before you commit, and there is no obligation to continue beyond it.',
+client/src/pages/Questions.tsx:72:        a: 'You should not, not on its own, and neither do we. AI is in the process for one reason: speed. It takes the analysis from 50,000 feet to 50 feet in a fraction of the time manual analysis would take. But no recommendation reaches you without a human sanity test from experienced coaches and subject matter experts who check whether it holds up in the real world. You get the scale of software with a named human who owns the answer.',
+=== Fundraising and investor references ===
+client/src/lib/articlesData.ts:110:Second, the baseline becomes auditable. The starting point for every initiative is a verified data baseline, not a self-reported estimate, not a consultant's assumption, but a quality-controlled dataset that can be independently verified and incorporated into financial reporting. This matters enormously when sustainability-linked financing is on the table, because lenders and investors require exactly this kind of auditability.
+client/src/lib/articlesData.ts:230:    subtitle: 'Regulatory mandates, investor pressure, and supply chain due diligence requirements are converging on Scope 3 emissions. The companies that treat this as a disclosure exercise will be outmanoeuvred by those that treat it as a risk management discipline.',
+client/src/lib/articlesData.ts:237:    excerpt: 'Regulatory mandates, investor pressure, and supply chain due diligence requirements are converging on Scope 3 emissions. The companies that treat this as a disclosure exercise will be outmanoeuvred by those that treat it as a risk management discipline.',
+client/src/lib/articlesData.ts:242:        answer: 'Scope 3 emissions are the indirect emissions that occur across a company\'s value chain, in suppliers\' factories, in customers\' use of products, and in logistics networks. They represent more than 70 percent of a large enterprise\'s total carbon footprint on average. They matter to CFOs because regulatory mandates, investor pressure, and customer supply chain requirements are making them a financial risk management priority, not just a disclosure item.',
+client/src/lib/articlesData.ts:262:The convergence of regulatory mandates (CSRD in Europe, SEC climate rules in the United States, ISSB S2 globally), investor due diligence requirements, and customer supply chain decarbonisation programmes has made Scope 3 a financial risk management priority. Companies that cannot measure, manage, and credibly disclose their Scope 3 emissions are increasingly finding themselves excluded from procurement programmes, financing facilities, and investment portfolios. The cost of inaction is no longer theoretical.`,
+client/src/lib/articlesData.ts:274:Most finance teams have not engaged seriously with this challenge. Scope 3 has been treated as a sustainability team problem, something to estimate using spend-based proxies and report in the annual disclosure. The estimates are often materially wrong. The proxies are often outdated. And the resulting disclosures are increasingly being challenged by investors, regulators, and customers who have their own data.`,
+client/src/lib/articlesData.ts:348:        content: `The framework historically known as ESG is undergoing a fundamental restructuring. For a decade, the acronym served as a useful shorthand for a broad set of corporate responsibilities, environmental stewardship, social accountability, governance quality. It gave investors a common vocabulary and gave companies a reporting structure. It also, in the view of a growing number of CFOs and capital allocators, became too broad to be useful.\n\nThe shift that is now underway is not a retreat from environmental ambition. It's a sharpening of focus. The market is converging on what Enduring Advantage has long called Profitable Environmental Performance: a discipline that concentrates exclusively on the three environmental pillars that have demonstrable, measurable impact on enterprise value, climate change and decarbonization, biodiversity loss and natural capital, and pollution and the circular economy. Social and governance issues, while important, are being separated out and addressed through different frameworks and different teams.\n\nFor CFOs, this shift is significant. It means that the environmental portion of the sustainability agenda can now be evaluated using the same capital allocation logic as any other investment category. It means that the question is no longer “what is our ESG score?” but “what is the financial return on each environmental initiative, and how does it compare to the alternatives?”`,
+client/src/lib/articlesData.ts:432:        content: `The consequences of non-compliance have moved well beyond reputational damage. Regulators worldwide are actively enforcing disclosure rules. Companies that fail to provide accurate, auditable environmental data face fines, restricted access to capital markets, and exclusion from major supply chains.\n\nThe supply chain exclusion risk is particularly significant for mid-market companies. Large multinationals are under pressure from their own regulators and investors to clean up their Scope 3 emissions, which means the emissions in their supply chains. A supplier that cannot provide auditable environmental data is a liability. In a competitive procurement environment, the supplier with the better data wins the contract. This dynamic is already playing out in automotive, consumer goods, and technology supply chains, and it is spreading rapidly to other sectors.\n\nThe capital markets dimension is equally significant. Green bonds and sustainability-linked loans now represent a substantial and growing share of corporate debt issuance. The interest rate advantage on sustainability-linked instruments is real and growing. Companies with strong, auditable environmental performance data can access this capital at a lower cost than companies without it. The cost of capital differential is not large enough to be transformative on its own, but it is large enough to be material in a capital allocation decision, and it compounds over time.`,
+client/src/lib/articlesData.ts:445:        content: `The companies that invested early in environmental data infrastructure are now reaping a compounding advantage. Their data is cleaner, their baselines are more reliable, their reporting is faster and cheaper, and their ability to model the financial impact of environmental initiatives is more sophisticated. This capability gap between early movers and late movers is widening, not narrowing, because the early movers are continuing to invest while the late movers are still building the foundations.\n\nThe 2026 market pulse confirms this pattern. Despite some regulatory rollbacks, most notably the EU Omnibus Directive, which delayed certain CSRD requirements for smaller companies, the vast majority of large companies are continuing to invest in sustainability reporting infrastructure. They are doing so not because they are required to today, but because they recognise that market and investor demands require it regardless of specific mandates. The regulatory ratchet may pause, but it does not reverse.\n\nFor CFOs who have not yet made a serious investment in environmental data infrastructure, the question is not whether to invest, but how to invest efficiently. The answer is to start with the data that is most material to your specific business, the emissions, the water, the waste, the supply chain exposures that have the largest financial impact, and build outward from there. The companies that try to build comprehensive environmental data systems from scratch, covering everything at once, tend to spend a great deal of money and produce data of limited quality. The companies that start with materiality and build incrementally tend to produce better data at lower cost.`,
+client/src/lib/articlesData.ts:911:        answer: 'The EU Omnibus I package, adopted in February 2026, significantly narrowed the scope of CSRD. The threshold was raised to approximately 1,000+ employees AND €450M+ net turnover, listed SMEs were exempted, and a transition relief was introduced. CSRD amendments apply from FY2027, with first reports due in 2028.',
+client/src/lib/articlesData.ts:966:        content: `There is one genuine urgency argument in the current environment that is not about compliance. The US One Big Beautiful Budget Act (OBBBA), signed in July 2025, phases out the IRA's clean-electricity credits. Construction must begin by July 4, 2026 or be in service by December 31, 2027 to qualify.\n\nFor multi-site companies with energy-intensive operations, this is a real and closing window. The economics of certain renewable energy and efficiency investments are materially better before the credit phases out than after. This isn't a compliance argument. It's a capital allocation argument: the same investment delivers a better return if made now than if made in 2028.\n\nThis is the kind of regulatory context that belongs in a sustainability programme, not as a compliance driver, but as a capital allocation input. The question is not "what do we have to do before the deadline?" It is "what is the most profitable thing we can do before this incentive closes, and how do we fund it?"\n\nThe answer to that question is different for every company, at every location. It requires a verified baseline, a systematic evaluation of options, and a vendor-neutral selection process. It is available from an advisor who sits on the buyer's side of the table and whose only interest is in the quality of the outcome.`,
+client/src/lib/articlesData.ts:1043:        content: `The nature and biodiversity space has the same structural problem as the broader sustainability market: too many options, too little clarity about which ones actually move the needle.\n\nThere are now hundreds of nature-positive investment frameworks, certification schemes, offset markets, supply chain traceability tools, and ecosystem service valuation methodologies competing for corporate attention. The Cali Fund, launched at COP16 in 2024, is attempting to channel money from sectors that profit from genetic resources into conservation, but key questions about contribution structures, benefit-sharing, and eligibility remain unresolved.\n\nFor a CFO trying to make a defensible capital allocation decision, this landscape is not an opportunity. It's a source of decision paralysis. The question is not whether to engage with nature risk. The question is which engagement delivers the strongest financial return for your specific organisation, at your specific locations, with your specific supply chain dependencies.\n\nThat question requires a systematic evaluation process, not a framework selection exercise.`,
+client/src/lib/articlesData.ts:1112:        content: `The word polycrisis has moved from academic papers into mainstream risk frameworks over the past two years. The World Economic Forum has used it. Central banks have begun incorporating it into financial stability assessments. The concept is straightforward: multiple crises that are not just happening at the same time but are interacting with each other, so that one problem makes another problem worse.\n\nThe environmental polycrisis includes climate change, biodiversity loss, deforestation, water stress, soil degradation, and ecosystem disruption. These are not separate issues. Forest loss affects rainfall patterns. Water stress affects agricultural yields and manufacturing inputs. Heat affects labour productivity and infrastructure maintenance costs. Climate shocks affect insurance pricing, public budgets, and the availability of credit in exposed regions.\n\nFor your clients, this matters in very practical ways. A manufacturing client with supply chain concentration in a water-stressed region is not just exposed to one risk. They are exposed to a chain of risks that can compound: input scarcity, price volatility, logistics disruption, and insurance gaps, potentially at the same time. A property client in a coastal or flood-prone area is not just exposed to physical damage. They are exposed to insurance withdrawal, financing constraints, and asset impairment in ways that standard valuation models may not reflect.\n\nThe polycrisis lens does not replace standard risk categories. It connects them. And for advisors, that connection is where the advice gap lives.`,
+client/src/lib/articlesData.ts:1149:        content: `The challenge for most advisory firms is not willingness. It is capability. Building a sustainability investment advisory practice from scratch requires data infrastructure, vendor evaluation methodology, and delivery expertise that takes years to develop. Most firms do not have the time or the appetite to build it.\n\nThe Enduring Advantage partner programme is designed for exactly this situation. It allows accounting firms, financial advisors, and industry associations to offer clients a verified, unconflicted sustainability investment assessment without building the capability in-house.\n\nAs a referral partner, you introduce the client and Enduring Advantage handles all the selling and delivery. You earn 10 to 15 percent of first-year client fees with near-zero lift. Your relationship with the client stays yours. Enduring Advantage never approaches a partner's client directly, and the wholesale-at-parity pricing model means your client never pays more through you than they would direct.\n\nAs a certified delivery partner, you deliver the coaching layer under your own brand and keep approximately 26 percent of a roughly $1.1 million parity engagement, plus a 30 percent share of recurring success fees. The method is certified and the data infrastructure is provided. You bring the client relationship and the advisory credibility. We bring the evaluation engine and the market coverage.\n\nThe foundation of the partnership is the same principle that governs Enduring Advantage's client work: unconflicted advice. We don't install equipment, sell products, take referral fees from vendors, or bill by the hour. For advisors who have built their reputation on independence, that alignment is not a feature. It's the reason the partnership works.`,
+client/src/lib/articlesData.ts:1184:        answer: 'When major insurers exit a market or raise premiums to unaffordable levels, lenders become unwilling to underwrite mortgages on those properties. Without mortgage availability, the buyer pool shrinks, and values fall. This sequence has already played out in parts of Florida, California, and Louisiana.',
+client/src/lib/data.ts:186:    excerpt: 'Zurich Insurance warns that failure to address water risk leads to higher borrowing costs, reduced investor confidence, and greater vulnerability to operational disruptions, with water scarcity now ranked among the greatest threats to business continuity.',
+client/src/lib/data.ts:222:    url: 'https://www.morganstanley.com/im/en-us/individual-investor/insights/articles/why-green-bonds-still-matter.html',
+client/src/lib/data.ts:230:    excerpt: 'As governments increasingly mandate nature-related risk disclosure, companies that proactively integrate biodiversity into their ESG frameworks gain a first-mover advantage, reducing regulatory exposure and attracting sustainability-focused investors.',
+client/src/lib/data.ts:241:    excerpt: 'Over 60% of CFOs surveyed acknowledge that returning to past polluting practices is not in their company\'s best interest. The business case for sustainability has become structural, driven by supply chain exposure, investor expectations, and regulatory momentum.',
+client/src/lib/data.ts:473:    excerpt: 'PwC discusses how sustainability certifications, ISO, B Corp, LEED, and BREEAM, are crucial for businesses to move beyond mere compliance and drive growth. They enhance brand reputation, attract investors, achieve cost savings through efficiency, and open new market opportunities.',
+client/src/lib/matrixData.ts:139:    description: 'ESG disclosure frameworks (GRI, SASB, CSRD, TCFD) that build investor confidence and regulatory compliance.',
+client/src/lib/matrixData.ts:180:    description: 'TNFD-aligned biodiversity impact and dependency assessment, producing disclosure-ready reports for investors and regulators.',
+client/src/lib/suppliersData.ts:542:  { name: 'Boundless Impact', url: 'https://boundlessimpact.net', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Footprint.Boundless Impact is a market intelligence firm specializing in quantitative, science-based environmental impact analysis for investors, companies, and funds' },
+client/src/lib/suppliersData.ts:935:  { name: 'Curio', url: 'https://curio.energy', email: 'investorrelations@curiolegacy.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'These findings validate Curio’s environmental claims and strengthen its position in the clean energy sector by demonstrating its potential to decarbonize nuclear power and modernize aging infrastructure.Bionetix is a biotechnology company specializing in natural biological treatments for industrial, agricultural, and environmental applications' },
+client/src/lib/suppliersData.ts:940:  { name: 'Cx Associates', url: 'http://www.cx-associates.com', category: 'Operational Efficiency', region: 'North America', location: 'North America', serviceDescription: 'Power facility needs, to shed power loads at times required by regulatory authorities, and to program power shutdowns-- all down to the individual power outlet level.Burlington, Vermont based Cx Associates specializes in building commissioning, retro-commissioning, building system efficiency upgrades, and energy program design, verification, and evaluation' },
+client/src/lib/suppliersData.ts:1299:  { name: 'EnergyRM', url: 'https://energyrm.com', email: 'info@energyrm.com', category: 'De-Carbonization', region: 'North America', location: 'Argyle, TX', serviceDescription: 'EnergyRM exists to align the economic interests and generate favorable financial returns for project investors through its Investment Structure, and to provide investment-grade software that unlocks investment in deep energy efficiency' },
+client/src/lib/suppliersData.ts:1330:  { name: 'Enko', url: 'https://www.enko.ag', email: 'info@enko.ag', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Entrepreneurs and agriculture industry veterans, Enko is backed by investors including the Bill & Melinda Gates Foundation, Anterra Capital, Finistere Ventures, Novalis LifeSciences, Germin8 Ventures, TO Ventures Food, and Rabo Food & Agri Innovation Fund.With approximately 80% of UMO being either dumped or burnt our patented process enables this potentially harmful waste product UMO to be processed into a premium marine fuel that has a lower carbon intensity and lower sulphur content' },
+client/src/lib/suppliersData.ts:1359:  { name: 'Envira Global', url: 'https://enviraglobal.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'And community facilities in adopting clean, cost-saving solar solutions.Envira Global is a woman-owned advisory and capital firm dedicated to accelerating sustainable development in smart cities, communities, and organizations by pairing purpose-driven investors with mission-oriented projects' },
+client/src/lib/suppliersData.ts:1514:  { name: 'Flexitricity', url: 'https://www.flexitricity.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'And commercial businesses, investors and developers, utility companies and the public sector all earn revenue through Flexitricity.Submetering' },
+client/src/lib/suppliersData.ts:1659:  { name: 'Go Electric', url: 'https://goelectricinc.com', email: 'INFO@GOELECTRICINC.COM', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'GreenSoil Building Innovation Fund (GBIF), with participation from existing investor, Second Century Ventures, the venture arm of the National Association of Realtors.Sunwave Gas & Power supplies electric generation service to thousands of homeowners and business consumers across North America' },
+client/src/lib/suppliersData.ts:2117:  { name: 'Koloma', url: 'https://koloma.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Through our four divisions: aquaculture, agriculture, wastewater treatment, and industry.Koloma, a Denver-based white hydrogen start-up, has secured $91 million from investors, including the Bill Gates-founded investment firm Breakthrough Energy Ventures - although the company remains tight-lipped about exactly where in the US it is drilling and when it is aiming for commercialization' },
+client/src/lib/suppliersData.ts:2584:  { name: 'OCOchem', url: 'https://ocochem.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Convenient, renewable power solutions to customers across Canada at prices that make it economical, and practical, regardless of the application.OCOchem, a Richland, Wash.-based startup, raised $5 million to scale' },
+client/src/lib/suppliersData.ts:2629:  { name: 'Orca AI', url: 'https://www.orca-ai.io', email: 'info@orca-ai.io', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Orca AI has raised a total of $40M in funding over two rounds from US, UK, and Israeli VCs. It employs 50 people and has offices in the United States, United Kingdom, Israel, and Greece' },
+client/src/lib/suppliersData.ts:2942:  { name: 'RER Energy Group', url: 'https://rerenergygroup.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'And our comprehensive suite of solutions supports our customers, property partners, investors, and energy industry partners, and serves to realize their goals alongside our own, in partnership.At RER Energy Group, our goal is to be your long-term strategic business partner and an educational resource as you consider various renewable energy options now and in the future' },
+client/src/lib/suppliersData.ts:2975:  { name: 'Risilience', url: 'https://risilience.com', email: 'contact@risilience.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'At Risilience we put the power of risk science in the hands of global enterprises; translating data into actionable insights that enable companies to identify opportunities, future-proof business strategy and protect investor inte' },
+client/src/lib/suppliersData.ts:3217:  { name: 'Solar Foods', url: 'https://solarfoods.com', email: 'info@solarfoods.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Operators, investors, occupants, communities, and the planet that houses all of us.' },
+client/src/lib/suppliersData.ts:3327:  { name: 'Starfire Energy', url: 'https://starfireenergy.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'The interest in Starfire Energy’s technologies continues to gain momentum with project requests from around the globe and a veritable who’s who of potential investors and strategic partners' },
+client/src/lib/suppliersData.ts:3390:  { name: 'Sunwave', url: 'https://gosunwave.com', email: 'customerservice@gosunwave.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Backed by Toronto-based GreenSoil Building Innovation Fund (GBIF), with participation from existing investor, Second Century Ventures, the venture arm of the National Association of Realtors.Sunwave Gas & Power supplies electric generation service to thousands of homeowners and business consumers across North America' },
+client/src/lib/suppliersData.ts:3446:  { name: 'TAE Technologies', url: 'https://tae.com', email: 'investorrelations@tae.com', category: 'Brand Enhancement', region: 'North America', location: 'North America', serviceDescription: 'Sustainability strategy, ESG advisory, and reporting services' },
+client/src/lib/suppliersData.ts:3522:  { name: 'Thermax', url: 'https://www.thermaxglobal.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'We combine an extensive field presence with a strong development expertise We support governments, international organisations, foundations, investors and private players.Thermax is one-stop utility partner to both industrial and commercial segments, helping customers achieve better resource productivity and bottom lines while maintaining a better environment.Loop Energy is a leading hydrogen fuel cell developer and manufacturer, helping build a zero-emissions world' },
+client/src/lib/suppliersData.ts:3541:  { name: 'Titus', url: 'https://www.titus-hvac.com', email: 'tu@titus-hvac.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Titus has raised the bar on design, proving that functional can also be beautiful. And we’ve redefined what it means to be energy efficient, with a collection of smart technology products that optimize the use of natural resources' },
+client/src/pages/About.tsx:30:    body: 'Developed project financial evaluation software for major western Canadian energy projects, produced world oil price forecasts, and built econometric demand models for Canadian energy markets.',
+client/src/pages/About.tsx:36:    body: 'Led economic evaluations of major energy projects and energy export applications subject to National Energy Board regulation. Built the analytical framework that would later underpin independent advisory work.',
+client/src/pages/About.tsx:453:                Rob has spent more than 45 years at the intersection of energy economics and independent advisory. He began his career at DataMetrics Limited in Calgary, building financial evaluation software for major western Canadian energy projects and producing world oil price forecasts. He then served at the National Energy Board in Ottawa, leading economic evaluations of major energy projects and export applications, before founding ECNG Inc. in 1987, a natural gas management company he led for nearly nine years. That foundation of institutional rigour, independent analysis, and customer-side advocacy has shaped every business he has built since.
+client/src/pages/About.tsx:691:                      body: 'Aligned sales strategy with executive vision and business objectives. Scaled digital investment channels with 25% year-on-year revenue growth. Developed automated funnels for investor onboarding and increased lead generation by 58%.',
+client/src/pages/Diagnostic.tsx:655:              'Your board or investors are asking questions you cannot yet answer with data.',
+client/src/pages/Home.tsx:1644:                  Corporations get dragged into global problems. They're already involved and will only get more involved. By the time it is obvious, it is too late. The proactive organizations will do dramatically better than those who wait. Supply chains are globally interconnected: fires in Europe or disruption in a strait raise costs and create shortages downstream. We can have a material impact if we do the right things, in the right order, at speed.
+client/src/pages/CoachModel.tsx:136:                  'Partners with the CSO to deliver verified, auditable outcomes. Provides honest critiques of vendor-funded research, published independence policy, and the evidence base that makes sustainability commitments credible to boards and investors.',
+=== Unverified partner/client/platform/economics claims ===
+client/src/hooks/useSEO.ts:12:  'The sustainability market has 7,500+ solutions and trillions in available capital. Enduring Advantage finds your highest-impact next action, delivers it, and repeats, systematically, without conflict, and in the right order.';
+client/src/hooks/useSEO.ts:252:      'A comprehensive directory of 3,881 sustainability vendors covering decarbonization, ESG reporting, renewable energy, carbon accounting, and more.',
+client/src/hooks/useSEO.ts:254:    numberOfItems: 3881,
+client/src/lib/articlesData.ts:71:        content: `This is a tremendous time to be a buyer of sustainability solutions. There are billions of dollars in capital flowing into the space, brilliant people building inventive products, and more than 7,500 products, services, and software solutions now available to enterprise buyers. The customer’s problem is not scarcity. It is too many options, too much complexity, and too little clarity about which ones actually move the needle on the corporate bottom line.
+client/src/lib/articlesData.ts:361:          { value: 'USD 35T', label: 'Global market for environmental performance solutions in 2025, projected to reach USD 140T by 2035 at 15% CAGR' },
+client/src/lib/articlesData.ts:363:          { value: '75%', label: 'of business leaders who consider environmental performance criteria important or very important to their business' },
+client/src/lib/articlesData.ts:773:        content: `The Big-4 and strategy consulting model is built around diagnosis and recommendation. The partner who leads the engagement is paid to produce a high-quality plan. They are not paid, and their economics do not support, staying on site to manage the procurement of a heat-recovery system in a manufacturing facility in Mississauga or the renegotiation of a power purchase agreement for a distribution centre in the Netherlands.\n\nThis isn't a criticism. It's a structural reality. The model that makes strategy consulting profitable is incompatible with the model that makes execution happen. The CFO who commissions a six-figure strategy engagement and expects execution to follow is misunderstanding what they bought.\n\nThe result is predictable: 47% of finance leaders express doubt that their organisation will actually hit the sustainability commitments it has already made publicly. That is not a confidence problem. It's a rational assessment of a system with no accountable owner at the execution stage.`,
+client/src/lib/articlesData.ts:778:          { value: '47%', label: 'of finance leaders doubt their organisation will hit its announced sustainability targets' },
+client/src/lib/articlesData.ts:813:    title: 'The Data Defensibility Problem: Why 96% of CFOs Cannot Stand Behind Their Sustainability Numbers',
+client/src/lib/articlesData.ts:847:        content: `Ninety-six percent of finance leaders report problems with the non-financial data they receive. Varying formats, inconsistencies, incomplete records, unclear definitions. Only 4% report none of these problems.\n\nThis isn't a reporting problem. It's a defensibility problem.\n\nThe CFO who stands in front of the board and announces a net-zero commitment by 2035 is making a public, attributable statement. If that commitment is built on data that 96% of their peers cannot stand behind, the exposure is not theoretical. It's the single most personally damaging outcome in the sustainability space: being the executive who announced a target the company quietly missed, and whose name is attached to it.`,
+client/src/lib/articlesData.ts:852:          { value: '96%', label: 'of finance leaders report problems with the non-financial data they receive (EY)' },
+client/src/lib/articlesData.ts:853:          { value: '55%', label: 'of CFOs fear their sustainability reporting lacks credibility and risks being perceived as greenwashing (EY)' },
+client/src/lib/articlesData.ts:863:        content: `EY's research identifies the specific failure modes with precision: varying data formats (39%), inconsistencies between sources (35%), incomplete records (34%), and unclear definitions (33%). These are not abstract data-governance concerns. They are the specific reasons a CFO cannot answer a pointed question from the audit committee without hedging.\n\n**Varying formats** mean that energy consumption data from a facility in Calgary arrives in gigajoules, from a facility in London in kilowatt-hours, and from a facility in Singapore in a spreadsheet with no units labelled. Aggregating these into a single portfolio number requires assumptions. Assumptions are not defensible.\n\n**Inconsistencies** mean that the same metric, say, Scope 2 electricity emissions, is calculated using market-based accounting in one region and location-based accounting in another. The number looks like a single figure. It's not.\n\n**Incomplete records** mean that a facility acquired two years ago has no historical baseline. The company's reported progress since the acquisition is measured against a starting point that does not exist.\n\n**Unclear definitions** mean that "waste diverted from landfill" includes composting in one facility and incineration-with-energy-recovery in another. Both are reported as the same metric. They are not the same thing.`,
+client/src/lib/articlesData.ts:919:        answer: 'Because the profitable moves in sustainability, energy efficiency, waste reduction, resource optimisation, deliver operational savings regardless of what the regulator does. A company that reduces its energy consumption by 30% saves money whether or not there is a disclosure requirement. The financial case for these initiatives does not depend on the regulatory case.',
+client/src/lib/articlesData.ts:945:        content: `The compliance-first approach to sustainability has a structural flaw that the current regulatory environment has made impossible to ignore: it frames every sustainability investment as a cost, and it ties the business case for that cost to a specific regulatory requirement.\n\nWhen the requirement changes, and it will change, as it has just changed dramatically in both the EU and the US, the business case evaporates. The CFO who approved a $2 million investment in CSRD compliance infrastructure in 2024 is now explaining to the board why that investment was necessary. The CFO who approved a $2 million investment in energy efficiency in 2024 is showing the board the $600,000 in annual savings it generated.\n\nThe compliance-first frame also creates a specific political vulnerability: it associates the company's sustainability programme with regulatory obligation rather than business performance. In the current environment, where 87% of US companies are maintaining or increasing sustainability investment but doing it quietly, and only 25% of S&P 500 firms still use "ESG" in their report titles, the compliance-first frame is the wrong frame.`,
+client/src/lib/articlesData.ts:949:        content: 'The profitable moves in sustainability are robust to regulatory whiplash. A company that reduces its energy consumption by 30% saves money whether or not there is a disclosure requirement. The financial case does not depend on the regulatory case.',
+client/src/lib/articlesData.ts:996:        answer: 'The Kunming-Montreal Global Biodiversity Framework, agreed in 2022, commits countries to protect 30% of land and sea by 2030, restore degraded ecosystems, and mobilise at least $200 billion per year from public and private sources for nature-positive investment. Corporate disclosure requirements are expected to follow as governments translate these commitments into national legislation.',
+client/src/lib/articlesData.ts:1245:          { value: '42%', label: 'Of Canadians affected by wildfires are from First Nations communities' },
+client/src/lib/suppliersData.ts:198:  { name: 'Algoma', url: 'https://www.algoma.co', email: 'info@algoma.co', category: 'De-Carbonization', region: 'Latin America', location: 'Amsterdam, Netherlands', serviceDescription: 'Algoma is a technology company that partners with real estate developers to automate the repeatable delivery of zero-carbon buildings and transform the environment we live in.As an industry, transportation was responsible for approximately 26% of worldwide CO2 emissions in 2021' },
+client/src/lib/suppliersData.ts:501:  { name: 'BlocPower', url: 'https://www.blocpower.io', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: '25% additional energy generation when installed alongside solar.BlocPower' },
+client/src/lib/suppliersData.ts:1071:  { name: 'EarnDLT', url: 'https://www.earndlt.com', email: 'Support@earnDLT.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'EarnDLT is dedicated to enabling sustainable commodities producers to create value from these "untapped sources", where there are market failures in liquidity, trust and connection.Today, farming accounts for 15% of global greenhouse gas emissions, but we believe it could become carbon neutral' },
+client/src/lib/suppliersData.ts:1171:  { name: 'Eisox', url: 'https://www.eisiox.com', email: 'hello@eisox.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Make the installation of the Eisox solution profitable on average in 3 years thanks to the energy savings generated by the intelligent thermostatic heads' },
+client/src/lib/suppliersData.ts:1240:  { name: 'Encycle', url: 'https://www.encycle.com', email: 'info@encycle.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Terchnology vcan save up to 30% on refrigeration costs while, at the same time, extending equipment life and enhancing food safety.' },
+client/src/lib/suppliersData.ts:1243:  { name: 'Endotherm', url: 'https://www.endotherm.com', email: 'enquiries@endotherm.co.uk', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'UK based EndoTherm is a global supplier of a unique, energy & gas saving central heating additive independently proven to save 15% on heating bills for central hydronic heating systems.London, UK base' },
+client/src/lib/suppliersData.ts:1269:  { name: 'Energy Control Consultants-', url: 'https://www.energycontrolconsultants.com/contact-us', category: 'De-Carbonization', region: 'North America', location: 'Davie, FL', serviceDescription: 'BuildingOS says their energy management system will improve building efficiency by as much as 35% with better visibility and analytics.' },
+client/src/lib/suppliersData.ts:1369:  { name: 'Enviroshake', url: 'https://www.enviroshake.com', email: 'info@enviroshake.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Its product lines-Enviroshake(R), Enviroslate(R), and Enviroshingle(R)-are made from a proprietary blend of 95% post-industrial recycled materials, including polymers, elastomers, and fibers' },
+client/src/lib/suppliersData.ts:1370:  { name: 'EnviroVent', url: 'https://www.envirovent.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'EnviroVent MEV systems also come with a guarantee, giving you peace of mind when purchasing. MEV is required when: you are doing a full renovation or building a new house rather than a retrofit; you want an easy to install, whole house ventilation solution; and/or you want a fit and forget solution.In the United States, an estimated 60-65% of electrical energy is used to supply motors, 75% of which are variable-torque fan, pump, and compressor loads' },
+client/src/lib/suppliersData.ts:1596:  { name: 'Garrett', url: 'https://www.garrettmotion.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'WE double productivity while reducing operating costs by 30%.Garrett is a global leader in turbocharging and automotive technologies, offering a wide range of products and services designed to enhance vehicle performance and efficiency' },
+client/src/lib/suppliersData.ts:1668:  { name: 'goMkt', url: 'https://www.gomkt.com', email: 'info@gomkt.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Historically, Good Energy has been able to save commercial businesses up to 30% on their power supply costs.New York, New York based goMkt is an online platform that helps retailers reduce food waste, drive foot traffic to stores, and increase revenues, at no extra cost' },
+client/src/lib/suppliersData.ts:1676:  { name: 'Gotham 360', url: 'https://www.gotham360.com', email: 'contact@gotham360.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Effect is a lowered carbon footprint for your facility and up to 30% energy savings through a reduced (up to 75%) outdoor air intake.Gotham 360 is a national energy management consultancy headquartered in New York City' },
+client/src/lib/suppliersData.ts:1800:  { name: 'Hank', url: 'https://www.hank.re', email: 'hank@hank.re', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Hank proactively manages your building and finds problems before they affect tenants! Hank’s able to save 30-35% more energy than most modern building management systems with his autonomous, self-learning AI' },
+client/src/lib/suppliersData.ts:2270:  { name: 'MaintainX', url: 'https://www.getmaintainx.com', email: 'info@getmaintainx.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'MaintainX estimates the following savings: 25% reduction in maintenance costs; 40% increase in productivity; 10% increase in equipment life; 30% reduction in inspection time; and 30% reduction in training time.RCx is one of the least expensive investments in your building you can make' },
+client/src/lib/suppliersData.ts:2413:  { name: 'Nania Energy Advisors', url: 'https://naniaenergy.com/contact', category: 'De-Carbonization', region: 'North America', location: 'Warrenville, IN', serviceDescription: 'It reduces energy costs an average of 25%, reduces carbon emissions, and extends the life of systems.Founded in 1999, Nania Energy Advisors provides energy procurement and advisement services for over 9,000 locations in 13 states' },
+client/src/lib/suppliersData.ts:2449:  { name: 'Nebia', url: 'https://nebia.com', email: 'info@nebia.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'While standard shower nozzles produce a straight stream of water with large droplets, our atomizing nozzles produce millions of droplets dispersed into precise patterns, optimizing the Nebia shower experience for temperature and rinsability and saving up to 65% of water compared to a standard shower' },
+client/src/lib/suppliersData.ts:2490:  { name: 'NextEra', url: 'http://www.nexteraenergy.com', category: 'De-Carbonization', region: 'North America', location: 'NextEra, Europe', serviceDescription: 'Neighbours.Up Catalyst focuses on turning flue-gas CO2 from heavy industry and biomass into valuable synthetic graphite, much needed to produce anodes for EV batteries.A subsidiary of NextEra Energy, Usource works with commercial, government, industrial, and institutional clients to develop and deliver comprehensive energy plans and sustainability strategies' },
+client/src/lib/suppliersData.ts:2740:  { name: 'Plus', url: 'https://plus.ai', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Able to save 30-35% more energy than most modern building management systems with his autonomous, self-learning AI.' },
+client/src/lib/suppliersData.ts:2963:  { name: 'RheEnergise', url: 'https://www.rheenergise.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Analysis shows that RheEnergise’s HD Hydro will be 40% below a Lithium-Ion battery project, and 15% below gas peaking plants' },
+client/src/lib/suppliersData.ts:3010:  { name: 'Rumin8', url: 'https://rumin8.com', email: 'support@rumin8.com.au', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Founded in 2021, Rumin8 develops feed supplements derived from naturally occurring anti-methane compounds found in plants, which can reduce cattle emissions by up to 95%' },
+client/src/lib/suppliersData.ts:3218:  { name: 'Solar Gard', url: 'https://www.solargard.com/ca', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Smart Glass offers free estimates.Solar Gard supplier window film to homes and businesses. Cost/Benefits - 30% energy cost savings, 99% UV blockage and 95% glare reduction.Access Protection is a leading provider and window tinting installation expert of security window films across Canada' },
+client/src/lib/suppliersData.ts:3630:  { name: 'Up Catalyst', url: 'https://upcatalyst.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'We use real-time demand management to ensure that tenants in Condos can charge at home without high costs to themselves or their non-EV-driving neighbours.Up Catalyst focuses on turning flue-gas CO2 from heavy industry and biomass into valuable synthetic graphite, much needed to produce anodes for EV batteries.A subsidiary of NextEra Energy, Usource works with commercial, government, industrial, and institutional clients to develop and deliver comprehensive energy plans and sustainability strate' },
+client/src/lib/suppliersData.ts:3704:  { name: 'Verdigris', url: 'https://verdigris.co', email: 'sales@verdigris.co', category: 'Brand Enhancement', region: 'Latin America', location: 'Latin America', serviceDescription: 'Verdigris customers have seen savings of $0.10-$0.30 per square foot using Adaptive Automation. Delivering total and peak demand savings for a >30% yearly ROI' },
+client/src/lib/suppliersData.ts:3783:  { name: 'Watercycles', url: 'http://www.watercycles.ca', category: 'Environment', region: 'North America', location: 'North America', serviceDescription: 'CUSTOMER SERVICE.Water heaters consume up to 25% of homes’ total energy. Meanwhile, most heated water is only used momentarily. Don’t flush your money and energy down the drain. Watercycles Energy Recovery Inc uses the thermal energy from your drain water to preheat your incoming water. Conserve energy and costs by instal' },
+client/src/lib/suppliersData.ts:3836:  { name: 'Winco', url: 'https://wincowindow.com', email: 'sales@wincogen.com', category: 'De-Carbonization', region: 'North America', location: 'Wint', serviceDescription: '95% of clients see a return of investment in less than a year reporting 2x to 10x ROI.From its inception, Winco has been guided by a passion for innovation and a desire to ensure a superior, unmatched experience for customers' },
+client/src/lib/suppliersData.ts:3895:  { name: 'Zauben', url: 'https://www.zauben.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Zauben’s biosolar and green roof panels help buildings stay cooler and reduce energy use for air conditioning, cutting energy costs by up to 25%' },
+client/src/lib/suppliersData.ts:3901:  { name: 'Zenith Energy', url: 'https://www.zenith.energy', email: 'info@zenithenergy.ca', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Cost/Benefits - We guarantee a 5% reduction in water costs, Customers typically save 8 to 12%.At Zenith Energy Ltd we specialise in tailored off-grid power generation and service models' },
+client/src/pages/About.tsx:691:                      body: 'Aligned sales strategy with executive vision and business objectives. Scaled digital investment channels with 25% year-on-year revenue growth. Developed automated funnels for investor onboarding and increased lead generation by 58%.',
+client/src/pages/About.tsx:697:                      body: 'Developed consultative selling strategies for non-profit and C-level B2B clients. Surpassed sales targets by 30% and led a team of four account managers to $1.6 million in revenue in six months.',
+client/src/pages/Home.tsx:59:    stat: '96%',
+client/src/pages/Home.tsx:67:    stat: '47%',
+client/src/pages/Home.tsx:75:    stat: '3 yrs',
+client/src/pages/Home.tsx:969:                      backgroundImage: `radial-gradient(ellipse at 30% 70%, rgba(74,180,100,0.2) 0%, transparent 60%),
+client/src/pages/Home.tsx:970:                                        radial-gradient(ellipse at 70% 30%, rgba(100,200,120,0.15) 0%, transparent 50%)`,
+client/src/pages/Home.tsx:1426:                    "Develops ACTIO, the big-data software platform that identifies the Next Best Thing from 50,000 feet. ACTIO evaluates thousands of candidate opportunities, scores each for financial return and environmental benefit, and surfaces the ranked action plan. Catalys is already serving eight clients with strong deployed results. Their results are published on their website.",
+client/src/pages/Home.tsx:1728:                { icon: '🌿', title: 'First Nations Communities', desc: 'A major market in Canada. Disproportionately affected by environmental disruption: roughly 5% of the Canadian population, but approximately 42% of those affected by wildfires. We are actively building relationships in this community.' },
+client/src/pages/Partners.tsx:529:                background: 'radial-gradient(circle at 50% 42%, #21493a 0%, #122a20 75%)',
+client/src/pages/Partners.tsx:678:                  'Earn 10–15% of first-year client fees',
+client/src/pages/Partners.tsx:689:                  'Keep ~26% of a ~$1.1M parity ACV (~$295K / client)',
+client/src/pages/Partners.tsx:690:                  'Plus a 30% share of recurring success fees',
+client/src/pages/Partners.tsx:765:                  ['Success fee on verified savings', '20% of savings', '30% share'],
+client/src/pages/Partners.tsx:766:                  ['Coach / specialist access', 'Rate card', 'Rate card less 15%'],
+client/src/pages/Partners.tsx:790:            a certified partner keeps ~<strong style={{ color: C.sageLight }}>$295K (~26%)</strong>, recurring.
+client/src/pages/Partners.tsx:791:            Referral partners earn 10–15% of first-year fees with effectively zero delivery effort.{' '}
+client/src/pages/Services.tsx:190:          background: 'linear-gradient(160deg, #1a2c2e 0%, #243a2e 55%, #1e3028 100%)',
+client/src/pages/SupplierDirectory.tsx:516:      'Search 3,881 sustainability vendors across decarbonization, ESG reporting, renewable energy, carbon accounting, EV charging, water management, and more. Filter by category, region, or sustainability topic.',
+client/public/llms.txt:13:- [Supplier Directory](https://enduringadvantage.com/suppliers): 3,881 sustainability vendors across categories
+client/public/llms.txt:36:- [The Data Defensibility Problem: Why 96% of CFOs Cannot Stand Behind Their Sustainability Numbers](https://enduringadvantage.com/articles/the-data-defensibility-problem-why-96-percent-of-cfos-cant-stand-behind-their-sustainability-numbers): By Campbell Ohrlis — the data quality crisis in corporate sustainability reporting.
+client/public/llms.txt:45:The Enduring Advantage Supplier Directory lists 3,881 sustainability vendors across categories including De-Carbonization, Energy Management, Renewable Energy, ESG Reporting, Water Management, Waste Reduction, and more. Each vendor entry includes service description, location, region, and contact information. The directory is searchable by company name, category, region, and sustainability topic.
+client/public/sitemap.xml:221:      <news:title>The Data Defensibility Problem: Why 96% of CFOs Cannot Stand Behind Their Sustainability Numbers</news:title>
+=== Group naming and history ===
+client/src/components/Footer.tsx:358:            © {new Date().getFullYear()} Enduring Advantage Inc. All rights reserved. Part of The Advantage Group of Companies.
+client/src/lib/articlesData.ts:736:    authorBio: 'Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob\'s practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer\'s side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.',
+client/src/lib/articlesData.ts:794:        attribution: 'Rob Kirkby, Founder, Enduring Advantage',
+client/src/lib/articlesData.ts:900:    authorBio: 'Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob\'s practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer\'s side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.',
+client/src/lib/articlesData.ts:950:        attribution: 'Rob Kirkby, Founder, Enduring Advantage',
+client/src/lib/suppliersData.ts:1396:  { name: 'ESC Automation', url: 'http://www.escautomation.com', email: 'info@escautomation.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Paper, healthcare, plastics, food & drink) and in public and private sector buildings (such as airports, universities, hospitals & banks).ESC Automation is proud to have been delivering exceptional, innovative and economical building automation control solutions for over 30 years' },
+client/src/lib/suppliersData.ts:1827:  { name: 'Helicity Space', url: 'https://www.helicityspace.com', email: 'inquiries@helicityspace.com', category: 'De-Carbonization', region: 'North America', location: 'Plainsboro, NJ', serviceDescription: 'Reactors would ship fully fueled for 30 years of operation.Based in Pasadena, California, Helicity Space is developing a propulsion and power technology based on a specialized magneto inertial fusion concept' },
+client/src/lib/suppliersData.ts:2190:  { name: 'Light Progress', url: 'https://lightprogress.com', email: 'team@lightprogress.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'And provide you with the data visualization and the information you need.Light Progress is the global leader in UVC disinfection with over 30 years of history and a portfolio with several hundred products' },
+client/src/lib/suppliersData.ts:2986:  { name: 'Rob knows CEO Michel Parent', url: 'https://www.te.com/usa-en/store.html', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Decarbonization solutions, clean energy transition, and emissions reduction services' },
+client/src/lib/suppliersData.ts:3492:  { name: 'Terrasmart', url: 'https://www.terrasmart.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Terrasmart, headquartered in Fort Myers, Florida, leads North America in solar racking, engineering, design and manufacturing with more than 30 years of experience in structural engineering and aluminum and steel fabrication.The Dutch have a reputation for obtaining energy by means of a windmill' },
+client/src/lib/suppliersData.ts:3767:  { name: 'Walker Industries', url: 'https://walkerind.com', email: 'contact@walkerind.com', category: 'De-Carbonization', region: 'North America', location: 'North America', serviceDescription: 'Walker Industries is a fifth generation, family-owned Canadian company that has operated from its base in the Niagara Region for more than 130 years' },
+client/src/pages/About.tsx:95:    title: '30+ years of institutional history',
+client/src/pages/About.tsx:103:    description: 'Enduring Advantage is the implementation arm of a three-part group. Energy Advantage holds thirty years of operational data. ACTIO finds the opportunity. We turn it into a plan and deliver it. No equipment sales. No referral fees.',
+client/src/pages/About.tsx:464:                , which has provided independent total energy and environmental management services to commercial, industrial, and institutional customers across North America for nearly 30 years. Enduring Advantage is the advisory arm of that group, purpose-built to help CFOs and CEOs navigate the full sustainability landscape with the same vendor-neutral, results-first rigour that has defined the Energy Advantage model since day one.
+client/src/pages/About.tsx:824:          }}>Part of the Advantage Group</p>
+client/src/pages/About.tsx:860:                description: 'Nearly 30 years of independent energy and environmental management. Provides the operational data, baseline intelligence, and measurement that underpin every decision.',
+client/src/pages/AuthorPage.tsx:32:    bio: "Rob Kirkby is the Founder and Principal Advisor of Enduring Advantage, built on 30+ years of institutional experience across the Energy Advantage Group. Rob's practice is grounded in a single thesis: continuous improvement logically drives the best results possible. He sits on the customer's side of the table as an independent architect and integrator, identifying the single solution with the biggest material positive impact on the bottom line and environmental footprint. Enduring Advantage does not install equipment, take referral fees, or bill by the hour.",
+client/src/pages/AuthorPage.tsx:33:    shortBio: '30+ years institutional experience. Independent architect and integrator, no equipment sales, no referral fees.',
+client/src/pages/Diagnostic.tsx:737:                note: '30+ years institutional experience. Every triage is principal-to-principal.',
+client/src/pages/Home.tsx:219:      'Enduring Advantage helps large customers and supply chain partners make sustainability profitable, turning a liability into a competitive advantage. Backed by thirty years of Energy Advantage data and powered by ACTIO, we pinpoint the Next Best Thing for your bottom line and get it done. No equipment sales. No referral fees. The Right Things in the Right Order.',
+client/src/pages/Home.tsx:491:                  '30+ years of institutional data across the group',
+client/src/pages/Home.tsx:1418:                    'Data underlies everything. Without it, no credible sustainability decision is possible. Energy Advantage provides the operational history, baseline intelligence, data management capabilities, measurement, and verification that make every analysis defensible. Nearly 30 years of independent energy and environmental management across North America.',
+client/src/pages/Partners.tsx:468:                You bring the relationship, we bring 30+ years of institutional data, the decision engine, the specialists
+client/src/pages/Partners.tsx:861:                title: '30+ years of institutional history',
+client/src/pages/Partners.tsx:862:                body: 'Every engagement runs on Energy Advantage\'s 30+ years of verified site data and independent measurement. That institutional history is unreplicable and protects every name in the network.',
+client/src/pages/Partners.tsx:958:                You bring the relationship. We bring the data, the decision engine, and 30+ years of institutional history. You keep the client, we are the advocate and the lead, never handing off.
+client/src/pages/Partners.tsx:1346:            Backed by Energy Advantage, 30 years of verified site data
+client/src/pages/PartnersThankYou.tsx:239:          © {new Date().getFullYear()} Enduring Advantage Inc. · Part of The Advantage Group of Companies.
+client/src/pages/Services.tsx:1015:                We sit on your side of the table. Independent, vendor-neutral by structure. 30+ years of institutional history. One conversation is enough to tell you whether there is a material opportunity in your operations. No commitment. No sales pitch.
+client/src/pages/CoachModel.tsx:314:                  bio: '30+ years of institutional experience across the Energy Advantage Group. Independent architect and integrator, no equipment sales, no referral fees.',
+client/src/pages/Questions.tsx:68:        a: 'ACTIO is a generative AI decision platform developed by our partner Catalys. Enduring Advantage deploys it as part of our engagements: it brings your operational data together, evaluates potential initiatives across the broadest possible field, and produces a ranked action plan. We are the integrator and delivery partner; Catalys builds the platform; Energy Advantage contributes nearly 30 years of data and measurement experience. You get the strength of all three, with one accountable relationship.',
+=== Sitemap references ===
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ===== CORE PAGES ===== -->
+
+  <url>
+    <loc>https://enduringadvantage.com/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/contact</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/investment-case</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/suppliers</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/about</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== CASE STUDIES ===== -->
+
+  <url>
+    <loc>https://enduringadvantage.com/case-studies/national-retail-chain</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/case-studies/commercial-real-estate-reit</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/case-studies/asset-intensive-manufacturer</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ===== ARTICLES ===== -->
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/sustainability-is-not-a-cost-centre</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-15</news:publication_date>
+      <news:title>Sustainability Is Not a Cost Centre</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-green-financing-gap</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-28</news:publication_date>
+      <news:title>The Green Financing Gap: Why Capital Is Sitting on the Sidelines</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/scope-3-the-cfo-imperative</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-10</news:publication_date>
+      <news:title>Scope 3: The CFO Imperative</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/from-esg-to-profitable-environmental-performance</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-22</news:publication_date>
+      <news:title>From ESG to Profitable Environmental Performance</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-regulatory-ratchet-why-compliance-is-now-a-competitive-weapon</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-08</news:publication_date>
+      <news:title>The Regulatory Ratchet: Why Compliance Is Now a Competitive Weapon</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/natural-capital-the-balance-sheet-risk-most-cfos-are-not-measuring</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-20</news:publication_date>
+      <news:title>Natural Capital: The Balance Sheet Risk Most CFOs Are Not Measuring</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-conflict-of-interest-at-the-heart-of-sustainability-advisory</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-01</news:publication_date>
+      <news:title>The Conflict of Interest at the Heart of Sustainability Advisory</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/why-cfos-are-moving-sustainability-from-csr-to-cogs</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11</news:publication_date>
+      <news:title>Why CFOs Are Moving Sustainability from the CSR Budget to COGS</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-accountability-gap-why-sustainability-strategies-gather-dust</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>The Accountability Gap: Why Sustainability Strategies Gather Dust</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-data-defensibility-problem-why-96-percent-of-cfos-cant-stand-behind-their-sustainability-numbers</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>The Data Defensibility Problem: Why 96% of CFOs Cannot Stand Behind Their Sustainability Numbers</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/articles/the-regulatory-patchwork-why-profit-first-sustainability-survives-any-rule-change</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Enduring Advantage</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17</news:publication_date>
+      <news:title>The Regulatory Patchwork: Why Profit-First Sustainability Survives Any Rule Change</news:title>
+    </news:news>
+  </url>
+
+  <!-- ===== LEGAL ===== -->
+
+  <url>
+    <loc>https://enduringadvantage.com/privacy-policy</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://enduringadvantage.com/terms</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

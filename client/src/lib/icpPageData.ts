@@ -1,0 +1,636 @@
+// ENDURING ADVANTAGE, ICP Landing Page Content
+// Design reminder: navy-and-gold financial editorial system. Each audience receives
+// a direct, evidence-aware decision page without unverified outcomes or live funding claims.
+
+export type IcpPageKey = 'cfo' | 'municipalities' | 'firstNations' | 'agriculture' | 'realEstate' | 'buildings' | 'industrial' | 'transportation';
+
+export interface IcpPageContent {
+  key: IcpPageKey;
+  route: string;
+  navLabel: string;
+  audience: string;
+  seoTitle: string;
+  seoDescription: string;
+  heroTitle: string;
+  heroBody: string;
+  ctaLabel: string;
+  ctaNote: string;
+  relatedArticleSlugs: string[];
+  deviceTitle: string;
+  deviceNote: string;
+  deviceRows: Array<{ label: string; value: string; emphasis?: boolean }>;
+  trustKicker: string;
+  trustTitle: string;
+  trustIntro: string;
+  trustExamples: Array<{ context: string; title: string; body: string }>;
+  polycrisisTitle: string;
+  polycrisisIntro: string;
+  pressures: Array<{ strand: string; title: string; body: string }>;
+  compoundingNote: string;
+  decisionKicker: string;
+  decisionTitle: string;
+  decisionBody: string[];
+  realityTitle: string;
+  realityIntro: string;
+  realityItems: Array<{ title: string; body: string }>;
+  howItStartsTitle: string;
+  howItStartsBody: string;
+  steps: Array<{ number: string; title: string; body: string }>;
+  questionsTitle: string;
+  questions: Array<{ question: string; answer: string }>;
+  closeTitle: string;
+  closeBody: string;
+  closeCtaLabel: string;
+  closeCtaSubject: string;
+  resourceCard?: {
+    kicker: string;
+    title: string;
+    body: string;
+    href: string;
+    linkLabel: string;
+    secondaryHref?: string;
+    secondaryLabel?: string;
+  };
+  sourceNote?: string;
+}
+
+export const icpPages: Record<IcpPageKey, IcpPageContent> = {
+  cfo: {
+    key: 'cfo',
+    route: '/cfo',
+    navLabel: 'CFOs & Finance',
+    audience: 'For CFOs and finance leaders',
+    seoTitle: 'Capital Decisions That Stand Up to Committee',
+    seoDescription: 'Your sustainability line can pay. Enduring Advantage finds the one project that clears your hurdle rate and improves environmental performance, delivers it and reports the result. Then the next one.',
+    heroTitle: 'The environmental polycrisis is now a line on your income statement. Deciding what to do about it is not your job.',
+    heroBody: 'Climate change, biodiversity loss and pollution now show up as fuel cost, input volatility, disrupted supply chains and capital decisions that do not clear your hurdle rate. There are thousands of credible solutions, and a finance team should not have to work out which one belongs in the capital plan. Left alone, the projects that get funded are the ones that got pitched, and the one that would have cleared your hurdle rate sits unfunded.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['how-sustainability-consultants-help-improve-your-supply-chain', 'what-is-the-right-order-worth', 'which-solution-works-here'],
+    deviceTitle: 'Capital committee, an illustrative agenda',
+    deviceNote: 'The environmental line is often deferred because the arithmetic behind it is not ready.',
+    deviceRows: [
+      { label: 'Line replacement, Plant 2', value: 'Under review' },
+      { label: 'Systems upgrade, distribution', value: 'Required' },
+      { label: 'Energy and emissions program, all sites', value: 'Deferred', emphasis: true },
+      { label: 'Fleet replacement', value: 'Planned' },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The decisions finance leaders bring when the answer is not yet clear.',
+    trustIntro: 'These are representative decision contexts, not claims about client outcomes. The work is to make the next allocation of capital testable before it reaches committee.',
+    trustExamples: [
+      { context: 'Capital plan', title: 'A program is credible, but it still has to compete.', body: 'Screen an energy, resilience or operating-cost proposal against the capital alternatives already in the plan, using the organization’s own hurdle and timing criteria.' },
+      { context: 'Board question', title: 'The environmental exposure needs a financial route.', body: 'Connect available operational records to the margins, supply risk or asset exposure that a board, lender or auditor can reasonably test.' },
+      { context: 'Vendor field', title: 'Three plausible proposals are not a recommendation.', body: 'Compare the alternatives you have received with the relevant options you have not yet seen, then bring forward one ranked next step, deliver it, and reassess for the next one.' },
+    ],
+    polycrisisTitle: 'Three interlocking pressures, not one. Each reaches the business through a different line.',
+    polycrisisIntro: 'Polycrisis is a precise term. Climate change, biodiversity loss and pollution reinforce one another, which is why separate files, budgets and vendor proposals rarely produce a coherent capital decision.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Extreme weather across your sites and suppliers, volatile energy costs, physical risk to fixed assets and unplanned downtime.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Input security where raw materials depend on soil, water, pollination or fisheries, with costs rising before regulation arrives.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Waste, effluent, air quality and refrigerant exposure, increasingly carried through customer and supply-chain requirements.' },
+    ],
+    compoundingNote: 'A drought can become a water-availability issue, then an input-cost issue, then a supply-contract issue. We screen the connected problem against one set of financial criteria.',
+    decisionKicker: 'Why this is hard',
+    decisionTitle: 'The market has produced an abundance of credible options. That abundance is the barrier.',
+    decisionBody: [
+      'Technologies, service providers, funding programs and software platforms each solve part of the problem. Many are competent. Most are designed to begin from the solution they sell.',
+      'Your decision is not whether an option is plausible. It is whether it is the best next use of capital for your organization, compared with the alternatives you have not yet seen.',
+      'That comparison is a technical screening exercise. We do the screening, name the one initiative worth funding next, and see it through with the right partners. Then we do it again at speed.',
+    ],
+    realityTitle: 'What the committee will actually ask',
+    realityIntro: 'We build the answer before you walk into the room.',
+    realityItems: [
+      { title: 'Where did this baseline come from?', body: 'We start with your available utility, fuel, operational and financial records. Estimates are labelled. As work proceeds, the picture becomes more refined and results can be re-verified.' },
+      { title: 'Why this project and not the others already in the plan?', body: 'You receive the one action that stands out and the evidence for why it rises above the alternatives, not another list your team has to adjudicate.' },
+      { title: 'Does it work on our criterion?', body: 'We work inside your financial framework, whether that is payback, ROI, NPV or another threshold that matters to the organization.' },
+    ],
+    howItStartsTitle: 'One decision, not a program.',
+    howItStartsBody: 'Start with one operating group, one cost category across the business, or one decision you are stuck on. There is no requirement to commit to a multi-year program before you know whether the case is worth pursuing.',
+    steps: [
+      { number: '01', title: 'Use what is available', body: 'Your capital plan, your cost base and the decision you are stuck on.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'The answer needs to be defensible.',
+    questions: [
+      { question: 'What happens if an incentive does not land?', answer: 'The business case is designed to stand on its own economics. Incentives are assessed for timing and risk, not treated as automatic day-one value.' },
+      { question: 'Who is accountable when implementation slips?', answer: 'Your Coach, a named senior advisor, quarterbacks the work. One point of accountability at your table.' },
+      { question: 'Can we take this to an auditor, lender or board?', answer: 'The recommendation is documented against the underlying baseline and decision criteria, so the reasoning can be tested rather than merely accepted.' },
+      { question: 'How will we know it worked?', answer: 'Every completed project gets an M&V report. [CONFIRM 8] provider. In between, you get ongoing reporting of savings and environmental results against your baseline.' },
+    ],
+    closeTitle: 'Bring the proposal you cannot currently defend.',
+    closeBody: 'You walk into committee with the one project that clears your hurdle rate, the evidence behind it, and the next one already ranked. If the answer is “not yet,” that’s useful too.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Capital decision triage',
+    resourceCard: {
+      kicker: 'CFO resource',
+      title: 'Freight & Procurement Decision Checklist',
+      body: 'Use a fillable six-step worksheet to turn supplier, freight, and sourcing exposure into one finance-ready next action with assumptions and ownership visible.',
+      href: '/manus-storage/ea-six-step-decision-checklist-freight-procurement_76c16cae.pdf',
+      linkLabel: 'Open the fillable PDF',
+      secondaryHref: '/articles/topic/supply-chain',
+      secondaryLabel: 'Explore Supply Chain research',
+    },
+  },
+  municipalities: {
+    key: 'municipalities',
+    route: '/municipalities',
+    navLabel: 'Municipalities',
+    audience: 'For councillors, CAOs and municipal treasurers',
+    seoTitle: 'Asset Renewal, Sequenced and Funded',
+    seoDescription: 'Which line goes first, why, and what it saved. Enduring Advantage helps staff and council pick the renewal that pays, fund it and prove it.',
+    heroTitle: 'The polycrisis arrives in your municipality as a repair bill. The question is which line goes first.',
+    heroBody: 'Flooding, wildfire, heat and storm damage now land directly on municipal assets and municipal budgets. There are credible responses, competing funding windows and a capital plan that cannot hold every project. Left alone, the line that gets fixed is the one that failed last. The one that would have made it easier to identify others waits.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['location-risk-heat-map-layers', 'strategic-location-planning-the-risk-cfos-are-not-pricing', 'water-scarcity-corporate-water-dependency'],
+    deviceTitle: 'Capital plan, an illustrative readiness check',
+    deviceNote: 'The value is not another climate plan. It is knowing which asset decision is ready to move.',
+    deviceRows: [
+      { label: 'Stormwater capacity', value: 'Service-level impact' },
+      { label: 'Facility plant renewal', value: 'Lifecycle cost' },
+      { label: 'Roads renewal backlog', value: 'Funding strategy' },
+      { label: 'Grant application readiness', value: 'Evidence required', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The municipal decisions where a clear sequence matters most.',
+    trustIntro: 'These are common public-capital decision contexts, not claims about client outcomes. The goal is to make the next staff or council decision more defensible.',
+    trustExamples: [
+      { context: 'Asset renewal', title: 'A facility repair is competing with the rest of the capital plan.', body: 'Frame the line through service level, lifecycle cost, operating impact and what deferral would mean, not as a standalone environmental initiative.' },
+      { context: 'Readiness', title: 'A funding window opens before the evidence is ready.', body: 'Identify what condition, feasibility or lifecycle material needs to be prepared now, so the municipality can make a credible decision when a program is relevant.' },
+      { context: 'Council report', title: 'The project needs to survive the public meeting.', body: 'Bring the recommendation into the language council debates: reserves, levy, service, capital timing and practical delivery constraints.' },
+    ],
+    polycrisisTitle: 'Three interlocking pressures, not one. Each lands on a different part of the capital plan.',
+    polycrisisIntro: 'For municipalities, the environmental polycrisis is an asset-management problem. It affects the condition, service level, replacement timing and funding requirements of the infrastructure you already own.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Stormwater systems sized for old rainfall patterns, flood and wildfire damage, heat loads on facilities and shortened service life for roads and pipe.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Natural assets such as wetlands, tree canopy and watercourses that perform retention and cooling work otherwise carried by built capital.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Drinking-water treatment, wastewater, landfill capacity, contaminated sites and air quality during smoke events.' },
+    ],
+    compoundingNote: 'A degraded wetland can raise the stormwater requirement, which competes with water treatment and roads renewal in the same budget. The decision needs one set of financial and service-level criteria.',
+    decisionKicker: 'The real constraint',
+    decisionTitle: 'Municipal staff are asked to solve connected asset problems one grant application at a time.',
+    decisionBody: [
+      'Funding programs, condition assessments, feasibility studies and procurement cycles do not arrive on the same schedule. A good project can still miss its moment if the evidence was not prepared before the window opened.',
+      'We start with the assets, studies and operating information you already hold. Then we determine which gaps matter, which funding routes are worth pursuing and what the capital plan should do first.',
+      'The work is framed as asset renewal, avoided cost, level of service and lifecycle value, because that is the language a public capital decision must survive in.',
+    ],
+    realityTitle: 'What the work must make clear',
+    realityIntro: 'The report should answer the questions staff and council actually need answered.',
+    realityItems: [
+      { title: 'What is the cost of continuing to defer?', body: 'We make the service, operating and lifecycle implications visible, rather than treating the project as a standalone environmental initiative.' },
+      { title: 'What evidence is needed before a funding application?', body: 'We identify the condition, feasibility, audit or assessment work needed to make an application credible, and whether that preparatory work is itself fundable.' },
+      { title: 'How does this affect reserves and the levy?', body: 'Recommendations are presented in the units council debates: capital, operating cost, reserves, service level and timing.' },
+    ],
+    howItStartsTitle: 'Start with your portfolio and the decision you are trying to make.',
+    howItStartsBody: 'The first assignment is not a new plan to sit on a shelf. It is a clear decision about what belongs in the capital program, what needs to happen first and how to make it fundable.',
+    steps: [
+      { number: '01', title: 'Start with municipal records', body: 'The asset, condition, lifecycle and operating records you already hold.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'A capital decision needs to survive a public meeting.',
+    questions: [
+      { question: 'Is this climate action or asset renewal?', answer: 'The environmental benefit is real and measurable. The decision frame is asset condition, service level, avoided cost and lifecycle value.' },
+      { question: 'Can we run our own procurement?', answer: 'Yes. Enduring Advantage does not sell equipment or take supplier referral fees. When it is time to buy, the municipality controls its own procurement.' },
+      { question: 'What about current grant windows?', answer: 'Program terms, eligibility and timing change. We confirm the live details before recommending that a municipality rely on a funding route.' },
+    ],
+    closeTitle: 'Bring the capital line you keep deferring.',
+    closeBody: 'Council can show ratepayers which line went first, why, and what it saved, before the next repair bill arrives.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Municipal capital decision',
+    sourceNote: 'Funding terms and application windows change. They should be confirmed with the relevant program before action is taken.',
+  },
+  firstNations: {
+    key: 'firstNations',
+    route: '/first-nations',
+    navLabel: 'First Nations',
+    audience: 'For Chief and Council',
+    seoTitle: 'Working With Chief and Council',
+    seoDescription: 'Chief and council choose what to do first, on the Nation\'s terms and with the Nation\'s own records. Enduring Advantage finds the project that pays and leaves a clearer record each cycle.',
+    heroTitle: 'You already know what the polycrisis costs. The hard part is choosing what to do first.',
+    heroBody: 'Wildfire, flooding, water quality and the cost of diesel are not abstract in your community. What often follows is a queue of consultants and vendors, each holding one answer and none accountable for whether it was the right one. Left alone, that queue sets the order and the Nation\'s own priorities wait. The work here is for the Nation, on the Nation\'s terms.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['water-scarcity-corporate-water-dependency', 'soil-health-the-hidden-supply-chain-risk', 'nature-loss-the-supply-chain-risk-cfos-are-not-pricing'],
+    deviceTitle: 'The terms come before the project',
+    deviceNote: 'A durable engagement should be clear about authority, ownership and what stays with the Nation.',
+    deviceRows: [
+      { label: 'Council authority', value: 'Community process' },
+      { label: 'Existing condition and utility records', value: 'Nation-held starting point' },
+      { label: 'Funding opportunities', value: 'Confirmed when relevant' },
+      { label: 'Project structure', value: 'Ownership and capacity', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The decisions that should begin with the Nation’s terms.',
+    trustIntro: 'These are representative starting points, not published community case studies. The Nation determines whether a conversation is useful, what information can be shared and what a first assignment should address.',
+    trustExamples: [
+      { context: 'Community priority', title: 'A practical project is already visible, but the path is not.', body: 'Start with the project that has existing information, a clear community purpose and a decision that council can make on its own terms.' },
+      { context: 'Project structure', title: 'The question is not only what to build, but what remains with the Nation.', body: 'Clarify authority, ownership, commercial terms and documentation before a proposal advances, rather than after key decisions have been made.' },
+      { context: 'Capacity', title: 'The first result should improve the next decision.', body: 'Use the initial work to retain a clearer record, strengthen available information and reduce reliance on outside advisors over time.' },
+    ],
+    polycrisisTitle: 'Three pressures at once, not one. Your community will have seen all three before we describe them.',
+    polycrisisIntro: 'We use polycrisis to mean climate change, biodiversity loss and pollution happening together. This is our working definition, not an attempt to explain the land to the people who know it.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Evacuations and smoke seasons, flooding, shorter winter-road seasons, thawing ground and shifting timing for harvest, fishery and travel.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Changes to fish, game, plants and water connected to food, medicine, culture, income and community wellbeing.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Drinking-water quality, contaminated sites, waste handling and the particulate and cost burden associated with diesel generation.' },
+    ],
+    compoundingNote: 'Funding categories separate what the community experiences together. Adaptation, clean energy, water and housing may arrive through different systems, even when one project could address more than one priority.',
+    decisionKicker: 'What a long-term partner means in practice',
+    decisionTitle: 'The work has to be accountable to council, useful to staff and capable of surviving an election.',
+    decisionBody: [
+      'Authority needs to rest with council and the community process the Nation uses, not a personal relationship with one leader. The work should be documented so an incoming council can understand what was decided and why.',
+      'The records the Nation already holds, often including condition information, utility records and lifecycle material, are enough to begin. A complete data set is not a precondition for beginning.',
+      'Where ownership, revenue and control can remain with the Nation, that is the structure to pursue. Capacity should be transferred, not turned into dependency on an advisor.',
+    ],
+    realityTitle: 'Terms of engagement, stated plainly',
+    realityIntro: 'These are commitments, not features.',
+    realityItems: [
+      { title: 'Council authority and a clear record', body: 'The work is anchored in the Nation’s governance and written so decisions, assumptions and next steps remain clear over time.' },
+      { title: 'Ownership and capacity', body: 'The goal is for Nation staff to understand the method, retain the documentation and lead future cycles with less external support.' },
+      { title: 'Commercial clarity', body: 'Scope and terms are agreed before work begins. We sell no equipment and take no supplier referral fees.' },
+    ],
+    howItStartsTitle: 'Start with what already exists. Take the achievable win first.',
+    howItStartsBody: 'We do not ask a Nation to assemble a perfect data set before anything can happen. We begin where information or funding already exists, establish an initial baseline and identify an opportunity that is both worthwhile and achievable.',
+    steps: [
+      { number: '01', title: 'Listen to the priorities', body: 'The Nation\'s priorities, governance process and the information already held.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported, then the next move gets named. Each cycle leaves more capacity and a clearer record with the Nation.' },
+    ],
+    questionsTitle: 'The right fit is a decision for the Nation.',
+    questions: [
+      { question: 'Do we need a complete data set before speaking?', answer: 'No. We start with what the Nation already has and are transparent about where additional information would improve a decision.' },
+      { question: 'Can the Nation retain control of the work?', answer: 'That is the intent. Governance, ownership, documentation and capacity transfer are considered at the start, not added later.' },
+      { question: 'What happens if it is not the right fit?', answer: 'That is an acceptable outcome. A conversation does not require a proposal, a commitment or a decision to proceed.' },
+    ],
+    closeTitle: 'A conversation with council, on the Nation’s terms.',
+    closeBody: 'Chief and council choose what to do first, with the Nation\'s own records. Each cycle leaves more capacity and a clearer record with the Nation.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Council conversation',
+    sourceNote: 'Enduring Advantage will only publish experience statements or community references with the relevant Nation’s express permission.',
+  },
+  agriculture: {
+    key: 'agriculture',
+    route: '/agriculture',
+    navLabel: 'Agriculture',
+    audience: 'For farm operators and farm managers',
+    seoTitle: 'Straight Answers on Farm Sustainability Money',
+    seoDescription: 'Which program or upgrade actually pays on your acres. One answer, with the numbers, before you sign anything.',
+    heroTitle: 'You feel the polycrisis before anyone else does. The hard part is knowing which offer actually pays on your acres.',
+    heroBody: 'Drought, fire, flood and heat show up in yield and input bills first. What follows is a queue of programs, consultants, carbon brokers and equipment dealers, all certain they have the answer. Figuring out which option actually clears on your acres is a full-time job you don’t have. Left alone, the program that gets signed is the one the rep brought, and the one that pays on your acres waits.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['soil-health-the-hidden-supply-chain-risk', 'water-scarcity-corporate-water-dependency', 'nature-loss-the-supply-chain-risk-cfos-are-not-pricing'],
+    deviceTitle: 'The per-acre question',
+    deviceNote: 'A recommendation needs to account for actual cash exposure, timing and the economics of your operation.',
+    deviceRows: [
+      { label: 'Input-cost exposure', value: 'Current operation' },
+      { label: 'Drying, irrigation and fuel', value: 'Season-specific' },
+      { label: 'Program reimbursement', value: 'Timing matters' },
+      { label: 'Proposed change', value: 'Clear or decline', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The farm decisions where timing, cash and contract terms change the answer.',
+    trustIntro: 'These are representative on-farm questions, not claims about client results. The decision is tested against the operation in front of us, not a brochure or a generic average.',
+    trustExamples: [
+      { context: 'program offer', title: 'The reimbursement looks attractive, until the cash timing is visible.', body: 'Test eligibility, timing, sign-offs and the amount carried by the operation before money arrives.' },
+      { context: 'Contract review', title: 'A carbon or environmental contract deserves the same scrutiny as any long-term commitment.', body: 'Read the economics, obligations, permanence terms, fees and exit conditions before deciding whether the offer clears on your ground.' },
+      { context: 'Equipment decision', title: 'The right machine or system still has to earn its place.', body: 'Compare operating fit, existing equipment, fuel or utility exposure and practical timing before committing capital.' },
+    ],
+    polycrisisTitle: 'Three pressures at once, not one. You are on the receiving end of all three.',
+    polycrisisIntro: 'Polycrisis is a practical way to describe climate change, biodiversity loss and pollution happening together. On a farm, the effects meet in the same margin calculation.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Drought, heat during grain fill, hail, flooding and changing seeding and harvest windows that reduce room for error.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Pollinators, beneficial insects and soil biology. When these decline, yield becomes harder to hold and purchased inputs may rise.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Nutrient runoff, water quality requirements and buyer expectations that increasingly affect market access.' },
+    ],
+    compoundingNote: 'Drought can stress soil biology, weaker soil biology can increase input dependency, and higher input use can raise both cost and runoff exposure. The margin does not care which program owns each piece.',
+    decisionKicker: 'Why choosing is hard',
+    decisionTitle: 'Thousands of offers may work somewhere. That does not mean they clear on your ground.',
+    decisionBody: [
+      'Equipment, inputs, carbon arrangements and incentive programs are often presented as a simple yes-or-no decision. They are not. The details of your acres, cash flow, timing and existing equipment change the answer.',
+      'We do not sell equipment, inputs or carbon contracts, and we take no referral fees. That gives us room to say when a program, contract or purchase does not clear the economic hurdle.',
+      'The work is to identify the one next action worth making, deliver it, reassess, and name the next one. At speed, because the field keeps moving while you decide.',
+    ],
+    realityTitle: 'What the recommendation needs to show',
+    realityIntro: 'Straight answers, in the units that matter on the operation.',
+    realityItems: [
+      { title: 'Out-of-pocket exposure', body: 'A reimbursement program is a cash-flow decision before it is an environmental one. We consider timing and financing, not just the headline funding amount.' },
+      { title: 'Per-acre or per-unit economics', body: 'You receive the numbers behind the recommendation, including the likely return, practical constraints and what would need to be true for it to work.' },
+      { title: 'Contract terms', body: 'Long commitments, permanence clauses, fees and penalties deserve a clear reading before any carbon or program contract is signed.' },
+    ],
+    howItStartsTitle: 'Bring the decision you keep pushing to next year.',
+    howItStartsBody: 'It might be a program, a contract, a new piece of equipment or a change you have been told you should make. We start with the utility, fuel, fleet, equipment, drying, irrigation or audit records you already have.',
+    steps: [
+      { number: '01', title: 'Build the initial baseline', body: 'Your utility, fuel, equipment, drying, irrigation and program records.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'The answer has to work on the farm, not in a brochure.',
+    questions: [
+      { question: 'Does a program really cover the cost?', answer: 'We look at the actual cash timing, eligibility conditions, required sign-offs and the portion you carry before a reimbursement arrives.' },
+      { question: 'Should we sign the carbon contract?', answer: 'We review the economics, term, obligations and alternatives. If the contract does not clear your hurdle, we will say so.' },
+      { question: 'What if the best answer is nothing?', answer: 'Then that is the answer. Preserving capital for a better opportunity is a valid decision.' },
+    ],
+    closeTitle: 'One decision, with the numbers, before you sign anything.',
+    closeBody: 'You know which program or upgrade actually pays on your acres this season, and which one comes next.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Farm decision review',
+    sourceNote: 'Program terms, commodity conditions and input prices change frequently. They should be checked against current delivery-organization information before a decision is made.',
+  },
+  realEstate: {
+    key: 'realEstate',
+    route: '/real-estate',
+    navLabel: 'Real Estate',
+    audience: 'For REITs, pension real estate and large portfolio owners',
+    seoTitle: 'Retrofit Decisions That Stand on Their Own Economics',
+    seoDescription: 'Which project belongs in the capex reserve first, and what it returns. One defensible answer across the portfolio.',
+    heroTitle: 'The environmental polycrisis is repricing your portfolio. The question is what belongs in the capex reserve first.',
+    heroBody: 'Flood, heat, wildfire smoke and storm exposure now sit in operating costs, the insurance file and asset liquidity. In response, vendors, platforms and consultants arrive with a single answer. Left alone, the capex reserve goes to whichever upgrade got pitched, and the one that would have repriced the asset waits. We screen the field against your metered data, lease structure and hold periods before anything enters the reserve.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['strategic-location-planning-the-risk-cfos-are-not-pricing', 'location-risk-heat-map-layers', 'the-green-financing-gap'],
+    deviceTitle: 'Portfolio-level investment screen',
+    deviceNote: 'The question is not whether an initiative is fashionable. It is which line genuinely moves for your portfolio.',
+    deviceRows: [
+      { label: 'Building energy performance', value: 'Metered consumption' },
+      { label: 'Capital reserve', value: 'Hold-period fit' },
+      { label: 'Tenant recovery position', value: 'Lease-specific' },
+      { label: 'Proposal already on the desk', value: 'Independent screen', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The asset decisions that need more than a generic retrofit model.',
+    trustIntro: 'These are representative asset-management decisions, not claims about client outcomes. The ranking starts with the particular building, its lease position and the owner’s hold period.',
+    trustExamples: [
+      { context: 'Reserve planning', title: 'A building is underperforming, but the reserve needs a better case.', body: 'Start with consumption history, current operating conditions and likely end-of-life triggers before deciding which capital line should move.' },
+      { context: 'Lease position', title: 'A savings model does not answer who can act or who benefits.', body: 'Test base-building scope, recovery structure, tenant permissions and hold period before treating a proposal as an asset-level recommendation.' },
+      { context: 'Vendor proposal', title: 'The offered solution may be valid, but it may not be first.', body: 'Screen the proposal against the relevant technical and capital alternatives before allocating reserve or committing to a delivery path.' },
+    ],
+    polycrisisTitle: 'Three interlocking pressures, not one. Each reaches a portfolio through a different line item.',
+    polycrisisIntro: 'For an owner of physical assets, the environmental polycrisis is not abstract. It is a set of routes into operating cost, resilience, lease performance, redevelopment and asset liquidity.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Flood exposure by asset location, cooling load, storm damage, business interruption and building-specific insurability.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Land use, stormwater and green-infrastructure requirements, redevelopment friction and site-level nature exposure.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Wildfire smoke ingress, indoor air quality, refrigerant transitions, tenant obligations and contaminated land at disposition or redevelopment.' },
+    ],
+    compoundingNote: 'These pressures arrive on different timescales and sit with different teams. The screening work brings them into one capital-priority decision rather than funding the most visible project.',
+    decisionKicker: 'Why choosing is the hard part',
+    decisionTitle: 'The retrofit case has to stand on economics, not on an assumption that a mandate or incentive will carry it.',
+    decisionBody: [
+      'The relevant question is whether a measure improves controllable operating cost, supports the tenant proposition, fits the hold period or affects the risk position of your portfolio.',
+      'We do not sell equipment and take no referral fees. That lets us test the proposal against the alternatives and say when a capital item should wait for end of life or a different trigger.',
+      'A portfolio decision should begin with metered information and the actual lease, recovery and hold-period position, not a generic simulation or a standard retrofit package.',
+    ],
+    realityTitle: 'The questions an asset manager should expect',
+    realityIntro: 'The vocabulary is practical: NOI, recovery, hold period and capital allocation.',
+    realityItems: [
+      { title: 'Which line moves, NOI or the cap rate?', body: 'We distinguish operating-cost value from liquidity and retention arguments, and we do not claim valuation precision that the evidence cannot support.' },
+      { title: 'Modelled savings or metered?', body: 'We begin with the available consumption history and make the data maturity visible. Vendor simulations are not treated as the baseline.' },
+      { title: 'Does it fit the hold period and recovery position?', body: 'The hold period, base-building versus tenant scope and actual lease permissions change the ranking. They are inputs, not afterthoughts.' },
+    ],
+    howItStartsTitle: 'One portfolio, one initial baseline, one ranked answer.',
+    howItStartsBody: 'Choose an operating group or cost category, a lease event, an asset plan or a capital line that needs a clearer case. We start with the records you have, identify what is decision-critical and make the next step visible.',
+    steps: [
+      { number: '01', title: 'Use the consumption history', body: 'Metered data, lease positions and hold periods for the assets in question.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'A portfolio decision should stay defensible after the market shifts.',
+    questions: [
+      { question: 'What if the incentive changes?', answer: 'The analysis distinguishes the underlying economics from external support, including the timing and uncertainty of any incentive.' },
+      { question: 'Can we use our own contractor process?', answer: 'Yes. The owner controls procurement. We provide an independent decision framework and do not profit from which supplier is chosen.' },
+      { question: 'What if the best recommendation is to wait?', answer: 'Then we say so. Waiting for a better technical, lease or end-of-life trigger can be the most disciplined capital decision.' },
+    ],
+    closeTitle: 'Bring the portfolio and the capital line you cannot currently make a case for.',
+    closeBody: 'You take one retrofit to the investment committee that stands on its own economics across the hold period, with the next one ranked behind it.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Asset investment screen',
+    sourceNote: 'Building-level performance, funding availability and regulatory requirements should be confirmed for the asset and jurisdiction before action is taken.',
+  },
+  buildings: {
+    key: 'buildings',
+    route: '/buildings',
+    navLabel: 'Buildings',
+    audience: 'For building owners, operators, and the partners they trust',
+    seoTitle: 'Building Decisions That Stand Up to Portfolio Review',
+    seoDescription: 'Thousands of possible upgrades across a portfolio. One next decision, with the evidence an owner, operator or lender can test.',
+    heroTitle: 'A building portfolio has thousands of possible upgrades. It needs one next decision.',
+    heroBody: 'Energy cost, lifecycle replacement, tenant expectations, insurance and physical exposure all compete for your attention. You should not have to choose the first project from a vendor list. Left alone, the upgrade that gets funded is the one on that list, and the one that pays for the others waits. Your metered and operating records are enough to screen the field and name the next action worth carrying into the capital plan.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['strategic-location-planning-the-risk-cfos-are-not-pricing', 'location-risk-heat-map-layers', 'how-sustainability-consultants-help-improve-your-supply-chain'],
+    deviceTitle: 'Buildings decision context',
+    deviceNote: 'A credible recommendation connects operating evidence, ownership reality, and a delivery path that a partner can stand behind.',
+    deviceRows: [
+      { label: 'Metered operating pattern', value: 'Available evidence' },
+      { label: 'Lifecycle and capital trigger', value: 'Asset-specific' },
+      { label: 'Owner, operator, and advisor roles', value: 'Named early' },
+      { label: 'One next action', value: 'Ranked or declined', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The building decisions where an independent screen protects the relationship as well as the capital.',
+    trustIntro: 'These are representative building and portfolio situations, not claims about client outcomes. The point is to make the next decision defensible for the owner, operator, and trusted partner at the same table.',
+    trustExamples: [
+      { context: 'Capital planning', title: 'A replacement is coming. The question is whether it should be the next allocation.', body: 'Start with the operating pattern, lifecycle position, and capital alternatives before treating an end-of-life event as an automatic project approval.' },
+      { context: 'Operating performance', title: 'A utility issue is visible, but the cause and first response are not.', body: 'Use available metering, service records, and field context to separate a controllable operating issue from an attractive but premature upgrade.' },
+      { context: 'Partner-led opportunity', title: 'The relationship owner needs an answer without becoming the technical delivery firm.', body: 'Property managers, advisors, lenders, and technical partners can lead the client relationship while Enduring Advantage brings the decision process, evidence layer, and specialist review behind it.' },
+    ],
+    polycrisisTitle: 'The building file carries more than one pressure. Each one can change the order of capital.',
+    polycrisisIntro: 'For a building owner or operator, climate change, biodiversity loss, and pollution are not separate reporting topics. They reach the same asset through operating cost, resilience, tenant conditions, insurance, maintenance, and redevelopment decisions.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Cooling demand, flooding, smoke, heat, storm disruption, and equipment exposure that can move operating and resilience priorities.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Stormwater, land, green-infrastructure, and site conditions that can affect redevelopment, permitting, and local resilience requirements.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Indoor air quality, refrigerant transitions, waste, contaminated materials, and tenant expectations that can affect asset operations and renewal timing.' },
+    ],
+    compoundingNote: 'A building does not experience these pressures one at a time. The decision screen brings them into one portfolio and operating question before the most visible project receives the budget.',
+    decisionKicker: 'Why choosing is the hard part',
+    decisionTitle: 'The first building project should clear two gates before it competes for capital.',
+    decisionBody: [
+      'The first gate asks whether the action creates a real environmental benefit for this building or portfolio. The second asks whether it is financially material under the owner’s own criteria, including timing, lifecycle, lease, and operating reality.',
+      'Only the actions that clear both gates are ranked. That gives the owner and the partner team a working set rather than a vendor shortlist, then one next action, a delivery path, and the information needed to reassess what follows.',
+      'Enduring Advantage does not install equipment, sell products, or take supplier referral fees. The recommendation can stay independent while the right partner remains accountable for the relationship and delivery role they choose to carry.',
+    ],
+    realityTitle: 'The building questions that should be visible before the recommendation is made',
+    realityIntro: 'The work should make the operating and relationship context explicit, not hide it inside a generic retrofit model.',
+    realityItems: [
+      { title: 'What does the available data show?', body: 'Metered consumption, service history, occupancy signals, and operating records are used as an initial baseline. Data maturity is made visible rather than overstated.' },
+      { title: 'Who owns each decision and delivery role?', body: 'Owner, operator, property manager, advisor, lender, and delivery partner roles are named early so a recommendation does not fail in the hand-off.' },
+      { title: 'What changes after the first action?', body: 'The result is measured where it is scoped, new operating information improves the next screen, and the next action is reassessed at speed.' },
+    ],
+    howItStartsTitle: 'Start with one operating group, one cost category across the portfolio, or one capital line that needs a clearer answer.',
+    howItStartsBody: 'A Buildings screen does not require a perfect digital twin or a completed capital plan. We begin with the records already held by the owner, operator, or trusted partner and identify what is decision-critical now.',
+    steps: [
+      { number: '01', title: 'Build the initial view', body: 'Meter, service, lifecycle and lease records for the building or portfolio.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'A Buildings decision should still make sense after the first meeting ends.',
+    questions: [
+      { question: 'Can our property manager, advisor, or lender stay involved?', answer: 'Yes. The partner who owns the relationship can remain at the table or lead the engagement. Roles, commercial structure, and client communication are agreed before delivery begins.' },
+      { question: 'Do we need complete building data before starting?', answer: 'No. We start with the metering, operating, service, and capital information already available, identify the material gaps, and make the confidence of the initial screen clear.' },
+      { question: 'What if the best next action is to wait?', answer: 'Then that is the answer. A lifecycle event, lease condition, operating trigger, or stronger evidence may make the next decision more defensible later.' },
+    ],
+    closeTitle: 'Bring the building decision and the partner who owns the relationship.',
+    closeBody: 'The owner, the operator and the advisor leave the same table with one next decision they can all stand behind, and the evidence a lender can test.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Buildings decision screen and partnership',
+    resourceCard: {
+      kicker: 'Channel partner route',
+      title: 'Lead the building relationship. Bring the decision system in behind it.',
+      body: 'Property managers, accountants, advisors, sustainability specialists, and lenders can introduce or deliver through a structured partner model. You remain close to the client while the data process, actio screen, and specialist review support the next answer.',
+      href: 'https://calendar.app.google/ozpmtufXwN4uhE2r6',
+      linkLabel: 'Discuss a Buildings partnership',
+      secondaryHref: '/partners',
+      secondaryLabel: 'See the partner model',
+    },
+    sourceNote: 'Building performance, lifecycle conditions, lease terms, funding availability, and local requirements should be verified for the specific asset before a capital or operating decision is made.',
+  },
+  industrial: {
+    key: 'industrial',
+    route: '/industrial',
+    navLabel: 'Industrial',
+    audience: 'For manufacturing, processing, and industrial operations leaders',
+    seoTitle: 'Industrial Decisions That Protect Margin and Throughput',
+    seoDescription: 'More opportunities than downtime windows. One next decision for the plant, ranked on your return and ready before the shutdown.',
+    heroTitle: 'Your plant has more opportunities than downtime windows. It needs one next decision.',
+    heroBody: 'Process heat, compressed air, motors, maintenance, water, waste and material yield all compete for attention. So do vendor proposals, capital requests, shutdown schedules and production commitments. Left alone, the next downtime window goes to whoever pitched last, and the project that protects margin waits for a later shutdown. Your operating information is enough to screen the field and rank the one project worth the window.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['how-sustainability-consultants-help-improve-your-supply-chain', 'what-is-the-right-order-worth', 'location-risk-heat-map-layers'],
+    deviceTitle: 'Industrial decision context',
+    deviceNote: 'The first recommendation needs to fit the process, the production calendar, and the capital plan.',
+    deviceRows: [
+      { label: 'Process and utility pattern', value: 'Available evidence' },
+      { label: 'Maintenance and shutdown window', value: 'Operating constraint' },
+      { label: 'Material, water, and waste exposure', value: 'Site-specific' },
+      { label: 'One next action', value: 'Ranked or declined', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The industrial decisions where margin, throughput, and delivery reality change the answer.',
+    trustIntro: 'These are representative operating situations, not claims about client outcomes. The work is to make the next decision work on the actual line, site, or portfolio of plants.',
+    trustExamples: [
+      { context: 'Process improvement', title: 'A process-energy proposal looks credible, but it still has to fit production.', body: 'Test operating load, maintenance timing, product quality, process control, and capital alternatives before treating a projected saving as a plant-ready recommendation.' },
+      { context: 'Site utility exposure', title: 'A utility cost issue is visible, but the first intervention is not.', body: 'Use interval, process, maintenance, and production information to distinguish controllable loss from an attractive but premature technology purchase.' },
+      { context: 'Vendor field', title: 'A capable supplier is not automatically the right first answer.', body: 'Screen the proposal against process constraints, alternatives not yet seen, implementation risk, and the financial criteria the operation must meet.' },
+    ],
+    polycrisisTitle: 'The plant sees several pressures at once. Each one can change the order of operating and capital decisions.',
+    polycrisisIntro: 'For industrial operations, climate change, biodiversity loss, and pollution reach the same margin through energy, water, materials, logistics, compliance, site resilience, and licence to operate.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Heat, flooding, storm disruption, energy reliability, and supplier interruption that can affect uptime, utility cost, and production planning.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Water availability, raw-material dependency, land and watershed conditions, and customer expectations that can affect sourcing and site risk.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Air emissions, effluent, waste, refrigerants, materials handling, and compliance exposure that can affect operating practices and renewal timing.' },
+    ],
+    compoundingNote: 'A water constraint can become a process constraint, then a production risk, then a customer or cost issue. The decision screen keeps the connected operating and financial effects visible before capital is allocated.',
+    decisionKicker: 'Why choosing is difficult',
+    decisionTitle: 'The plant does not need a longer project list. It needs the next action that clears on production reality.',
+    decisionBody: [
+      'Industrial teams already have improvement ideas, vendor proposals, reliability work, and capital requests in motion. The difficulty is comparing them on the same footing when downtime, safety, yield, quality, energy, water, and cost all matter.',
+      'The available process, utility, maintenance and financial information provides the starting point. Material gaps are made visible, the working set is screened, and the actions that clear both the environmental-benefit and financial-materiality gates are ranked.',
+      'Enduring Advantage does not install equipment, sell products, or take supplier referral fees. The recommendation can stay independent while the right process, engineering, maintenance, and delivery partners carry the work forward.'
+    ],
+    realityTitle: 'The plant questions that should be answered before a recommendation moves',
+    realityIntro: 'The work should make operating conditions and ownership visible, not hide them inside a generic savings model.',
+    realityItems: [
+      { title: 'What will this do to throughput, quality, and uptime?', body: 'A projected utility improvement is not sufficient. The operating effect, process dependency, shutdown requirement, and practical commissioning path need to be visible.' },
+      { title: 'What evidence supports the starting point?', body: 'The process, utility, production, maintenance and cost records available today provide the starting point. Data maturity and estimates are labelled rather than overstated.' },
+      { title: 'Who owns the delivery hand-off?', body: 'Operations, maintenance, engineering, finance, procurement, and external delivery roles are named before a recommendation is allowed to become a project.' },
+    ],
+    howItStartsTitle: 'Start with one plant question that is consuming disproportionate time or capital.',
+    howItStartsBody: 'Choose a line, utility system, material issue, maintenance event, or capital request that needs a clearer answer. A perfect data platform is not a precondition. We begin with the records already held by the plant and identify what matters to the decision now.',
+    steps: [
+      { number: '01', title: 'Build the operating view', body: 'Process, utility, production and maintenance records for the line or plant.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'An Industrial decision should still make sense on the production floor.',
+    questions: [
+      { question: 'Do we need perfect process data before starting?', answer: 'No. We begin with available records, make uncertainty visible, and identify the additional information that would materially improve the decision.' },
+      { question: 'Can the work fit a planned shutdown or maintenance event?', answer: 'That is one of the operating conditions we test. The right action at the wrong time can be a poor recommendation.' },
+      { question: 'What if the best answer is to wait?', answer: 'Then that is the answer. An end-of-life trigger, a better shutdown window, or stronger operating evidence may make the next decision more defensible later.' },
+    ],
+    closeTitle: 'Bring the plant decision that is not yet ready to move.',
+    closeBody: 'The next shutdown window goes to the project that protects margin and throughput, with the case ready before the window opens.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Industrial decision screen',
+    sourceNote: 'Plant conditions, operating data, maintenance schedules, site requirements, and vendor proposals should be verified for the specific facility before a capital or operating decision is made.',
+  },
+  transportation: {
+    key: 'transportation',
+    route: '/transportation',
+    navLabel: 'Transportation',
+    audience: 'For fleet, logistics, distribution, and transportation leaders',
+    seoTitle: 'Transportation Decisions That Work on the Route and in the Budget',
+    seoDescription: 'One fleet or network decision that holds on the route and in the budget, screened against the full field before a vehicle, charger or fuel is chosen.',
+    heroTitle: 'The next fleet decision is a route, energy and capital decision. It needs one clear answer.',
+    heroBody: 'Fuel, vehicle availability, route length, payload, charging or fuelling access, maintenance, refrigeration, driver conditions and customer commitments all change the economics. Vendors can show a vehicle, a charger, a fuel or a platform. Left alone, the fleet decision follows the one someone showed you, and the one that holds on the route waits. Your fleet, fuel, route and depot records are enough to screen the full field before anything is chosen.',
+    ctaLabel: 'Find your Next Best Thing',
+    ctaNote: 'Principal to principal. No sales presentation. Bring your portfolio and the decision you are trying to make.',
+    relatedArticleSlugs: ['how-sustainability-consultants-help-improve-your-supply-chain', 'strategic-location-planning-the-risk-cfos-are-not-pricing', 'what-is-the-right-order-worth'],
+    deviceTitle: 'Transportation decision context',
+    deviceNote: 'A credible fleet recommendation connects route reality, energy access, asset timing, and the operating model that has to carry it.',
+    deviceRows: [
+      { label: 'Route and duty-cycle pattern', value: 'Available evidence' },
+      { label: 'Fuel, charging, or depot constraint', value: 'Operational fit' },
+      { label: 'Vehicle lifecycle and maintenance timing', value: 'Capital context' },
+      { label: 'One next action', value: 'Ranked or declined', emphasis: true },
+    ],
+    trustKicker: 'Representative decision situations',
+    trustTitle: 'The transportation decisions where the operating model matters as much as the technology.',
+    trustIntro: 'These are representative fleet and logistics contexts, not claims about client outcomes. The goal is to make the next action defensible against the actual routes, assets, customers, and delivery constraints.',
+    trustExamples: [
+      { context: 'Fleet replacement', title: 'A vehicle transition proposal is not a fleet plan.', body: 'Test duty cycle, payload, route range, maintenance, fuel or charging access, replacement timing, and residual operating risk before a vehicle becomes the recommendation.' },
+      { context: 'Depot and energy', title: 'A charger, fuel supply, or depot upgrade may be valid, but it may not be first.', body: 'Screen site capacity, operating schedule, load management, vehicle deployment, and capital alternatives before allocating infrastructure spend.' },
+      { context: 'Supply-chain commitment', title: 'A customer request needs an operating and financial route.', body: 'Translate the request into fleet, route, procurement, cost, data, and delivery implications before promising a solution that the network cannot carry.' },
+    ],
+    polycrisisTitle: 'The transportation network carries more than one pressure. Each one can change the order of the next fleet decision.',
+    polycrisisIntro: 'For transportation and logistics leaders, climate change, biodiversity loss, and pollution reach the business through routes, fuel, assets, depots, supplier availability, customer requirements, and physical disruption.',
+    pressures: [
+      { strand: 'Strand one', title: 'Climate change', body: 'Heat, flooding, wildfire smoke, storms, and disrupted corridors that can affect vehicle performance, route reliability, depots, and delivery promises.' },
+      { strand: 'Strand two', title: 'Biodiversity loss', body: 'Land, water, raw-material, and sourcing dependencies that can affect infrastructure decisions, supply continuity, and the customer standards moving through the network.' },
+      { strand: 'Strand three', title: 'Pollution and waste', body: 'Tailpipe emissions, local air quality, refrigerants, noise, waste, and fuel handling that can affect operating permissions, customer requirements, and asset replacement choices.' },
+    ],
+    compoundingNote: 'A route disruption can become a fuel, driver, service, and customer-cost issue at the same time. The decision screen compares the connected operating and financial effects before choosing the most visible solution.',
+    decisionKicker: 'Why choosing is difficult',
+    decisionTitle: 'The right transportation action has to work in the network, not only on a specification sheet.',
+    decisionBody: [
+      'Transportation teams are offered credible vehicles, charging systems, alternative fuels, route tools, and optimization platforms. Many can work in the right conditions. The challenge is knowing which action belongs first for your assets and operating model.',
+      'The records you already hold, including fleet, fuel, maintenance, route, depot, service and financial information, provide the starting point. The working set is then screened against environmental benefit, financial materiality, implementation reality and the conditions the network must meet.',
+      'Enduring Advantage does not sell vehicles, charging systems, fuel, or software, and does not take supplier referral fees. The recommendation can remain independent while the right fleet, facility, energy, and delivery partners execute.'
+    ],
+    realityTitle: 'The transportation questions that should be visible before a recommendation moves',
+    realityIntro: 'The work should make route, asset, infrastructure, and accountability conditions explicit before the business commits capital.',
+    realityItems: [
+      { title: 'Does it work on the route and duty cycle?', body: 'Range, payload, temperature, terrain, dwell time, service level, maintenance, and driver conditions are decision inputs, not afterthoughts.' },
+      { title: 'What must be true at the depot or on the network?', body: 'Energy capacity, charging or fuelling access, site constraints, dispatch patterns, and operating ownership need to be visible before infrastructure is assumed.' },
+      { title: 'Who carries the implementation?', body: 'Fleet, operations, maintenance, finance, real estate, procurement, energy providers, and delivery partners each have a role that should be named before the hand-off.' },
+    ],
+    howItStartsTitle: 'Start with one fleet, route, depot, or customer decision that needs a clearer answer.',
+    howItStartsBody: 'The first assignment is not a fleet transformation plan. It is a practical decision screen using the operational and financial records you already hold, with the material gaps made clear before more data is requested.',
+    steps: [
+      { number: '01', title: 'Build the operating view', body: 'Fleet, fuel, route, maintenance and depot records.' },
+      { number: '02', title: 'Data collection starts', body: 'The records you already hold go into actio. A complete data set is not needed to begin.' },
+      { number: '03', title: 'First wins', body: 'Low risk moves that can be proven with the evidence on hand. Each one clears two gates: a positive environmental impact across the entire Sustainability Playing Field and a minimum financial return. It then ranks by return measured your way.' },
+      { number: '04', title: 'Report and repeat', body: 'Savings and environmental results are reported against your baseline, then the next move gets named. Bigger bets come as the data fills in.' },
+    ],
+    questionsTitle: 'A Transportation decision should still work after the vehicle leaves the depot.',
+    questions: [
+      { question: 'Can we start without a full fleet-data platform?', answer: 'Yes. We begin with the route, fuel, maintenance, utilisation, and financial information available today and identify which gaps would materially change the decision.' },
+      { question: 'Does the work replace our fleet or energy partners?', answer: 'No. The point is to make the first decision clearer. Existing partners can remain part of the delivery path when they are the right fit.' },
+      { question: 'What if a proposed vehicle or infrastructure project should wait?', answer: 'Then that is a valid answer. Asset timing, depot readiness, route conditions, or stronger evidence may make the next decision more defensible later.' },
+    ],
+    closeTitle: 'Bring the fleet or network decision that is not yet ready to move.',
+    closeBody: 'You make one fleet decision that holds on the route and in the budget, with the vehicle, charger or fuel selected only after the field is screened.',
+    closeCtaLabel: 'Find your Next Best Thing',
+    closeCtaSubject: 'Transportation decision screen',
+    sourceNote: 'Fleet conditions, route data, infrastructure capacity, fuel availability, regulatory requirements, and vendor proposals should be verified for the specific operation before a capital or operating decision is made.',
+  },
+};

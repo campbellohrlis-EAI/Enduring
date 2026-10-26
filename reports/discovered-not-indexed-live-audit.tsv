@@ -1,0 +1,24 @@
+route	status	canonical	robots
+/about	200	https://enduringadvantage.com/about	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/actio	200	https://enduringadvantage.com/actio	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles	200	https://enduringadvantage.com/articles	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/from-esg-to-profitable-environmental-performance	200	https://enduringadvantage.com/articles/from-esg-to-profitable-environmental-performance	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/natural-capital-the-balance-sheet-risk-most-cfos-are-not-measuring	200	https://enduringadvantage.com/articles/natural-capital-the-balance-sheet-risk-most-cfos-are-not-measuring	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/scope-3-the-cfo-imperative	200	https://enduringadvantage.com/articles/scope-3-the-cfo-imperative	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/sustainability-is-not-a-cost-centre	200	https://enduringadvantage.com/articles/sustainability-is-not-a-cost-centre	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/the-accountability-gap-why-sustainability-strategies-gather-dust	200	https://enduringadvantage.com/articles/the-accountability-gap-why-sustainability-strategies-gather-dust	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/the-conflict-of-interest-at-the-heart-of-sustainability-advisory	200	https://enduringadvantage.com/articles/the-conflict-of-interest-at-the-heart-of-sustainability-advisory	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/the-green-financing-gap	200	https://enduringadvantage.com/articles/the-green-financing-gap	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/the-regulatory-ratchet-why-compliance-is-now-a-competitive-weapon	200	https://enduringadvantage.com/articles/the-regulatory-ratchet-why-compliance-is-now-a-competitive-weapon	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/articles/why-cfos-are-moving-sustainability-from-csr-to-cogs	200	https://enduringadvantage.com/articles/why-cfos-are-moving-sustainability-from-csr-to-cogs	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/buildings	200	https://enduringadvantage.com/buildings	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/coach-model	200	https://enduringadvantage.com/coach-model	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/contact	200	https://enduringadvantage.com/contact	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/industrial	200	https://enduringadvantage.com/industrial	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/partners	200	https://enduringadvantage.com/partners	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/privacy-policy	200	https://enduringadvantage.com/privacy-policy	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/questions	200	https://enduringadvantage.com/questions	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/scorecard	200	https://enduringadvantage.com/scorecard	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/suppliers	200	https://enduringadvantage.com/suppliers	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/terms	200	https://enduringadvantage.com/terms	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+/transportation	200	https://enduringadvantage.com/transportation	index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1

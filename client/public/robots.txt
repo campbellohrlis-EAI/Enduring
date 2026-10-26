@@ -1,0 +1,5 @@
+# Enduring Advantage temporary coming-soon crawler policy
+# The full website framework is retained privately while the public holding page is active.
+
+User-agent: *
+Disallow: /
